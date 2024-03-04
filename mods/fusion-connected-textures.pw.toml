@@ -3,11 +3,11 @@ filename = "fusion-1.1.1-forge-mc1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/p19vrgc2/versions/94vm6WAZ/fusion-1.1.1-forge-mc1.20.1.jar"
+url = "https://cdn.modrinth.com/data/p19vrgc2/versions/oA5jxU4i/fusion-1.1.1-forge-mc1.20.1.jar"
 hash-format = "sha1"
-hash = "07f9f3b00da0eb87b2fc6215ff6f22a650c0d661"
+hash = "d45b7aa1be6d65a6c8c1d0b8fb7da07f1ea56c2f"
 
 [update]
 [update.modrinth]
 mod-id = "p19vrgc2"
-version = "94vm6WAZ"
+version = "oA5jxU4i"

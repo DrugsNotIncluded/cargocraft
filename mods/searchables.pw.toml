@@ -1,0 +1,13 @@
+name = "Searchables"
+filename = "Searchables-fabric-1.19.4-1.0.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fuuu3xnx/versions/9YdVg9HV/Searchables-fabric-1.19.4-1.0.2.jar"
+hash-format = "sha1"
+hash = "0e94ea47ce439b50a1b55cd40942116f54cc03c7"
+
+[update]
+[update.modrinth]
+mod-id = "fuuu3xnx"
+version = "9YdVg9HV"

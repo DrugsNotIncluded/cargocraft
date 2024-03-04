@@ -1,0 +1,13 @@
+name = "Nameless Projects"
+filename = "Nameless Offical-V- 8.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7e1b29a32292ad5dbbc78f55b0b2221929844ef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5086109
+project-id = 928327

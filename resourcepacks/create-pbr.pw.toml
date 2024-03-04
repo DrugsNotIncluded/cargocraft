@@ -1,0 +1,13 @@
+name = "Create-PBR"
+filename = "Create-LabPBR-v7.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CFeoJnHX/versions/IedT3ZUS/Create-LabPBR-v7.zip"
+hash-format = "sha1"
+hash = "ca32048181ec9eee277425e7cdc5202a2eda871e"
+
+[update]
+[update.modrinth]
+mod-id = "CFeoJnHX"
+version = "IedT3ZUS"

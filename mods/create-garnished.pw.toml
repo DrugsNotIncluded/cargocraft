@@ -1,0 +1,13 @@
+name = "Create: Garnished"
+filename = "garnished-1.6.3+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6e2SlzR4/versions/OXfPURVH/garnished-1.6.3%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "3fe7a21ad71236a9874e2597249fff109a84879f"
+
+[update]
+[update.modrinth]
+mod-id = "6e2SlzR4"
+version = "OXfPURVH"

@@ -1,0 +1,13 @@
+name = "Default PBR"
+filename = "DefaultPBR.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dx4KvykQ/versions/v1sELZMH/DefaultPBR.zip"
+hash-format = "sha1"
+hash = "7c4589af29376ee31fb8488afa25da3cdf08a597"
+
+[update]
+[update.modrinth]
+mod-id = "dx4KvykQ"
+version = "v1sELZMH"

@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "a6a8c77e8c48ce1049fee7d13ff5b893d281646b5e71d258257cde04e0d5c283"
+
+[[files]]
 file = "datapacks/create-structures.pw.toml"
 hash = "657ab9714e3bd6b0a511650cedeaf952b697f79a8e905ca4a1d01202a84eb851"
 metafile = true
@@ -97,7 +101,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "30710d9ab312c80b31c532de61f9f0663a08a62048caf92d7b3958e328f4a94e"
+hash = "f247815ac9b059c160bc3d7fc8881cc379dcfceeb409eea951eb21154f72e838"
 metafile = true
 
 [[files]]
@@ -157,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "5a337573260d8df7c01617c10329a856e44870b217670477d1889474a6fb4307"
+hash = "ade07fff998a724f12cae88499f9bf12008b401158a2ad5287819c733e4ff9e4"
 metafile = true
 
 [[files]]
@@ -167,7 +171,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-goggles.pw.toml"
-hash = "9467cfed9a7c32870c58684b0d0c468fa2e6eadc2f6b2c7a9d460c936bb8c549"
+hash = "75eff6711ca05c11668b2f002b2ce8b88d6a3db9aeca6823485238876357c83a"
 metafile = true
 
 [[files]]
@@ -362,7 +366,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "b5b076663f62cfb0c3d8ee8e304711d6fbfa043f72a4706dc88edb927da6f046"
+hash = "e93f24623fe48bd7eee6e54e80c223ce71e639e210372124b8f22dd6b72924cc"
 metafile = true
 
 [[files]]
@@ -404,6 +408,10 @@ metafile = true
 file = "mods/kubejs.pw.toml"
 hash = "c6cd4e6e65f28324728b3dc837f12866efcdd04d098d06e23fdb8bef1f5493ee"
 metafile = true
+
+[[files]]
+file = "mods/kuborossiya-1.1.0.jar"
+hash = "9f11a1ef0551fbcc6cd3b4f35cb9712a164139becd3393719f4349bb1eb4c7f6"
 
 [[files]]
 file = "mods/lets-do-nethervinery.pw.toml"
@@ -522,7 +530,7 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "bf9dffa64b73ae8c2d85fb84fb0e1332645d0dd88fbfc627fa3f87deef9ccc4a"
+hash = "f435fb26b5ce5e660cf709d8415732d19f4fe1aa498edbd55a7ae5af1e8c802f"
 metafile = true
 
 [[files]]

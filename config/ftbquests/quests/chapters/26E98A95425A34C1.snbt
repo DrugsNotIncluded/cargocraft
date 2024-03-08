@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "26E98A95425A34C1"
+	group: ""
+	icon: "createdeco:copper_window"
+	id: "26E98A95425A34C1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Пак разделён на несколько ступеней прогрессии"
+				"Большая её часть взята из Create: Above and Beyond"
+			]
+			icon: "minecraft:grass_block"
+			id: "610DB5CA14C24C61"
+			rewards: [{
+				id: "3C4B5950BE3A26B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35598BC5F19C0138"
+				title: "Кчау)"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["610DB5CA14C24C61"]
+			description: ["Открывает первую секцию квестов."]
+			icon: "create:andesite_alloy"
+			id: "56757CC1468C6707"
+			tasks: [{
+				id: "02CD4957D074BBD5"
+				title: "Андезитовые машины"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56757CC1468C6707"]
+			icon: "kubejs:kinetic_mechanism"
+			id: "3E04659B926647A7"
+			tasks: [{
+				id: "1050A813B9C02CFB"
+				title: "Андезитовые механизмы"
+				type: "checkmark"
+			}]
+			title: "Кинетические механизмы"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E04659B926647A7"]
+			icon: "create:electron_tube"
+			id: "3102FDAB1EBA8C36"
+			tasks: [{
+				id: "5B818ECB234E493D"
+				title: "Латунный век"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3102FDAB1EBA8C36"]
+			icon: "kubejs:radiant_coil"
+			id: "1D67640ABC19C723"
+			tasks: [{
+				id: "5501C6ACF10AFB4F"
+				title: "Заводы мои заводы.."
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D67640ABC19C723"]
+			icon: "kubejs:inductive_mechanism"
+			id: "284A6AA9F6FB4CD5"
+			tasks: [{
+				id: "3B3266468524D92C"
+				title: "Индуктивные механизмы"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["284A6AA9F6FB4CD5"]
+			icon: "createutilities:void_steel_ingot"
+			id: "7935BF0A1EAD2DD0"
+			tasks: [{
+				id: "3FA269B8A54AC90A"
+				title: "Чета на умном"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7935BF0A1EAD2DD0"]
+			icon: "kubejs:abstruse_mechanism"
+			id: "6545EF3B53228B8D"
+			tasks: [{
+				id: "3A94570F2BB90B90"
+				title: "Цыганские фокусы"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: "&a Обзор &a"
+}

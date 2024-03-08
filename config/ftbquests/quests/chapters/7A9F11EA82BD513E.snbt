@@ -1,0 +1,220 @@
+{
+	autofocus_id: "4127DE236C7E86E3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7A9F11EA82BD513E"
+	group: "516EFD039DCB3A72"
+	icon: "kubejs:andesite_machine"
+	id: "7A9F11EA82BD513E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "create:wrench"
+			id: "4127DE236C7E86E3"
+			tasks: [{
+				id: "4D4F8C7B186B220A"
+				title: "Первая глава: Начало"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4127DE236C7E86E3"]
+			icon: "minecraft:andesite"
+			id: "6BFA6ABE7E392791"
+			tasks: [{
+				id: "4F7BCE60FB876338"
+				title: "Андезит"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BFA6ABE7E392791"]
+			icon: "create:rope_pulley"
+			id: "46EDE860849D5160"
+			tasks: [{
+				id: "7412DB2EED9C96FE"
+				title: "Подъёмник"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FE90A4E95ACB2EE"]
+			icon: "minecraft:sand"
+			id: "1FE3D18B49E19860"
+			tasks: [{
+				id: "021B0CED2DE62328"
+				title: "Песок"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4127DE236C7E86E3"]
+			icon: "minecraft:kelp"
+			id: "0FD3D682421FFBEC"
+			tasks: [{
+				id: "798D0A8219A2B78B"
+				title: "Подводный сад"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4127DE236C7E86E3"]
+			icon: "minecraft:oak_log"
+			id: "195B3F511F11F9AF"
+			tasks: [{
+				id: "6AC777D41CB461F2"
+				title: "Автоматический лес"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FD3D682421FFBEC"]
+			icon: "create:mechanical_harvester"
+			id: "374B0CBAD9EAA623"
+			tasks: [{
+				id: "20EE8D2B068EB599"
+				title: "Механический сборщик"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["195B3F511F11F9AF"]
+			icon: "create:mechanical_saw"
+			id: "7300F463F5B60B10"
+			tasks: [{
+				id: "0540BCA72A855DDE"
+				title: "Пила делает вжжж"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FE3D18B49E19860"]
+			icon: "create:encased_fan"
+			id: "22B4A616818031DE"
+			tasks: [{
+				id: "7B4EADB555EB3AF6"
+				title: "Месим глину"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"374B0CBAD9EAA623"
+				"22B4A616818031DE"
+			]
+			icon: "kubejs:algal_blend"
+			id: "64CBBA88058EC08E"
+			tasks: [{
+				id: "7BA34C9526E1C086"
+				title: "Водорослевая смесь"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46EDE860849D5160"
+				"64CBBA88058EC08E"
+			]
+			icon: "create:andesite_alloy"
+			id: "3362908080AF4F79"
+			tasks: [{
+				id: "4C54990EFA6C20C3"
+				title: "Андезитовый сплав"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7300F463F5B60B10"]
+			icon: "minecraft:oak_slab"
+			id: "61ED7C60CD6216D6"
+			tasks: [{
+				id: "754BDFF424A278B2"
+				title: "Основа для механизмов"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3362908080AF4F79"
+				"61ED7C60CD6216D6"
+				"1AE6F01F5CAF7E15"
+			]
+			icon: "create:deployer"
+			id: "171BA7A110C35274"
+			tasks: [{
+				id: "5A4447983B02768E"
+				title: "Автосборщик"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "kubejs:iron_saw"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1AE6F01F5CAF7E15"
+			tasks: [{
+				id: "5A00304C6CCF0683"
+				title: "Временные инструменты"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["171BA7A110C35274"]
+			icon: "kubejs:kinetic_mechanism"
+			id: "2C7441A2EF2031B8"
+			tasks: [{
+				id: "29E797E260DA3D92"
+				title: "Часть 1: Автоматизация"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4127DE236C7E86E3"]
+			icon: "create:millstone"
+			id: "2FE90A4E95ACB2EE"
+			tasks: [{
+				id: "5D2E87D1EBF5AF86"
+				title: "Неэффективные методы"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+	]
+	title: "1. &2 Базовые машины &2"
+}

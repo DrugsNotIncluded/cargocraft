@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "63234585C0439441"
+	group: ""
+	icon: "createcoins:goldcoin"
+	id: "63234585C0439441"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["1B74A301CFDD8E4D"]
+			icon: {
+				Count: 1b
+				id: "kubejs:iron_saw"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "25BCADDF8A1F2579"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				id: "01D799BC833680C4"
+				item: {
+					Count: 1b
+					id: "kubejs:iron_saw"
+					tag: {
+						Damage: 0
+						Modifier: "forbidden_arcanus:eternal"
+					}
+				}
+				title: "Iron saw"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "7BCFD795225630BF"
+				item: "createcoins:diamondcoin"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Iron Saw"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B74A301CFDD8E4D"]
+			icon: {
+				Count: 1b
+				id: "kubejs:screwdriver"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "70F06DB17B442F4B"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				id: "5C65CB466A843D7D"
+				item: {
+					Count: 1b
+					id: "kubejs:screwdriver"
+					tag: {
+						Damage: 0
+						Modifier: "forbidden_arcanus:eternal"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "74C36AE9AEE5A434"
+				item: "createcoins:diamondcoin"
+				type: "item"
+			}]
+			title: "Screwdriver"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B74A301CFDD8E4D"]
+			icon: {
+				Count: 1b
+				id: "kubejs:chromatic_resonator"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "104607CEFCE2756C"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				id: "1E19D4060BF77EE3"
+				item: {
+					Count: 1b
+					id: "kubejs:chromatic_resonator"
+					tag: {
+						Damage: 0
+						Modifier: "forbidden_arcanus:eternal"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 15L
+				id: "2065867F9EDAEFC5"
+				item: "createcoins:diamondcoin"
+				type: "item"
+			}]
+			title: "Chromatic Resonator"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+			id: "1B74A301CFDD8E4D"
+			ignore_reward_blocking: true
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "09EF64745B2253CF"
+				title: "Бесконечные инструменты"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6545EF3B53228B8D"]
+			icon: "kuborossiya:mshk_bebri"
+			id: "36203FDE6C566907"
+			rewards: [{
+				id: "7435B38DBA84B3FC"
+				item: "kuborossiya:mshk_bebri"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 64L
+				id: "6C1224010DB1C431"
+				item: "createcoins:diamondcoin"
+				type: "item"
+			}]
+			title: "СЛОВНО"
+			x: -10.0d
+			y: -4.5d
+		}
+	]
+	title: "&a Это мы покупаем &a"
+}

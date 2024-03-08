@@ -1,0 +1,273 @@
+{
+	autofocus_id: "6FB396B6DE5CB6DC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2_2___2"
+	group: "516EFD039DCB3A72"
+	icon: "kubejs:brass_machine"
+	id: "6E5A4F1A38ADF934"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C7441A2EF2031B8"]
+			icon: "create:peculiar_bell"
+			id: "6FB396B6DE5CB6DC"
+			tasks: [{
+				id: "66CECD5B347C52AA"
+				title: "Вторая глава: Начало"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6FB396B6DE5CB6DC"]
+			icon: "quark:white_corundum"
+			id: "05211E4B2C47532C"
+			tasks: [{
+				id: "145F3F4FD9127CE0"
+				title: "Выращиваем корунд"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D252B9958247E08"]
+			icon: "quark:white_corundum_cluster"
+			id: "2C6AEEBB0692B4CC"
+			tasks: [{
+				id: "68C33363A01F864E"
+				title: "Майнкрафтские фокусы"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05211E4B2C47532C"]
+			icon: "kubejs:corundum_seed_1"
+			id: "3C53F1319E9C1D93"
+			tasks: [{
+				id: "7BDDEF4A0FCB6116"
+				title: "Выращиваем семечко"
+				type: "checkmark"
+			}]
+			title: "1. Выращиваем семечко"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C53F1319E9C1D93"]
+			icon: "kubejs:corundum_seed_2"
+			id: "477E12638DB2FFE0"
+			tasks: [{
+				id: "7CE73BF37CC32893"
+				title: "2. Выращиваем семечко"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477E12638DB2FFE0"]
+			icon: "kubejs:corundum_seed_3"
+			id: "3D252B9958247E08"
+			tasks: [{
+				id: "3F6875825510B3D7"
+				title: "3. Выращиваем семечко"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FB396B6DE5CB6DC"]
+			icon: "minecraft:diorite"
+			id: "15A8902F326C01AF"
+			tasks: [{
+				id: "287F2F7A4C48B406"
+				title: "Выбираем гальку"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15A8902F326C01AF"]
+			icon: "create_new_age:thorium"
+			id: "79FD328C0224D9A0"
+			tasks: [{
+				id: "0FD166E9012081EA"
+				title: "Шоу \"Эксперименты\""
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79FD328C0224D9A0"]
+			icon: "kubejs:eternal_ingot"
+			id: "292B7D951251CF4B"
+			tasks: [{
+				id: "1C4656B2CDF37259"
+				title: "Фиолетовый батон"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["292B7D951251CF4B"]
+			icon: "kubejs:grain_of_infinity"
+			id: "7D630ED1D807B675"
+			tasks: [{
+				id: "526CF294D26236A5"
+				title: "Бесконечные крошки"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D630ED1D807B675"]
+			icon: "kubejs:abyssal_blend_bucket"
+			id: "72C77F67761BA7F0"
+			tasks: [{
+				id: "1FE67AFE6B3D2613"
+				title: "Страшная жижа"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C6AEEBB0692B4CC"]
+			icon: "kubejs:overcharged_white_corundum_cluster"
+			id: "38D4341724FF45D4"
+			tasks: [{
+				id: "50387BFBF4A7D37F"
+				title: "Батарейка"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"38D4341724FF45D4"
+				"72C77F67761BA7F0"
+			]
+			icon: "minecraft:redstone_block"
+			id: "5AB77D764B24036D"
+			tasks: [{
+				id: "23EC35D203581047"
+				title: "Жиденький редстоун"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6FB396B6DE5CB6DC"]
+			icon: "minecraft:iron_block"
+			id: "0BEBE083A598BC3A"
+			tasks: [{
+				id: "08B8CD0D0B7EA239"
+				title: "Ферма железа"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BEBE083A598BC3A"]
+			icon: "createbigcannons:cast_iron_ingot"
+			id: "093D8D8605A77B7D"
+			tasks: [{
+				id: "21B3E51C2856FA3C"
+				title: "Обработка"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["093D8D8605A77B7D"]
+			icon: "createbigcannons:molten_cast_iron_bucket"
+			id: "5373FB5B59B92894"
+			tasks: [{
+				id: "019076CC04B13652"
+				title: "Закалённый металл"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5AB77D764B24036D"
+				"2C6AEEBB0692B4CC"
+			]
+			icon: "create:polished_rose_quartz"
+			id: "3A08BB53D0AE87D9"
+			tasks: [{
+				id: "730063478FB5DA40"
+				title: "Электронные лампы"
+				type: "checkmark"
+			}]
+			title: "Электронные компоненты"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3A08BB53D0AE87D9"
+				"5373FB5B59B92894"
+			]
+			icon: "create:electron_tube"
+			id: "0533E188CEC09DF1"
+			tasks: [{
+				id: "683A0D11D034A328"
+				title: "Электронные лампы"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0533E188CEC09DF1"
+				"240F684DE164768B"
+			]
+			icon: "create:precision_mechanism"
+			id: "141F2FF51784B313"
+			tasks: [{
+				id: "6B82EE81D8736F91"
+				title: "Точная сборка"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "kubejs:screwdriver"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "240F684DE164768B"
+			tasks: [{
+				id: "0BF0232A59299D89"
+				title: "Отвёртка"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+	]
+	title: "2. &3 Латунный век &3"
+}

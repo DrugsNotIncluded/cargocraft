@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "more_red"
+	group: "7CBD5EF10CB5D7D8"
+	icon: "morered:bundled_network_cable"
+	id: "1390180C7B501DB0"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "&5 More red &5"
+}

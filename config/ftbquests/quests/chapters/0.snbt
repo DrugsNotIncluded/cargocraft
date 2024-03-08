@@ -1,0 +1,98 @@
+{
+	autofocus_id: "7D58FB6A9932BA16"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0"
+	group: "516EFD039DCB3A72"
+	icon: "create:experience_block"
+	id: "12253D8E81019FC3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "create:large_cogwheel"
+			id: "79DE18BFE6045808"
+			tasks: [{
+				id: "1A2A943195D5A4D1"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			icon: "morered:red_alloy_ingot"
+			id: "6A092076A897FF2C"
+			tasks: [{
+				id: "497AA976D46D0EBF"
+				title: "More red"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			icon: "vinery:red_grapejuice_wine_bottle"
+			id: "33698BF0AD3FF763"
+			tasks: [{
+				id: "775CFEDAF5B8A0DB"
+				title: "Vinery"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:copper_barrel"
+				tag: {
+					accentColor: 8439583
+					mainColor: 16701501
+				}
+			}
+			id: "50B8D701FA0E9D81"
+			tasks: [{
+				id: "3AEDE007060E17BB"
+				title: "Sophisticated storage"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			icon: "sophisticatedbackpacks:diamond_backpack"
+			id: "1AF124F861681001"
+			tasks: [{
+				id: "1BDE3E49C1999655"
+				title: "Sophisticated Backpacks"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			icon: "toms_storage:ts.storage_terminal"
+			id: "617B290FF8220576"
+			tasks: [{
+				id: "43BF340968BDC5CB"
+				title: "Tom's Simple Storage"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			icon: "minecraft:spyglass"
+			id: "7D58FB6A9932BA16"
+			tasks: [{
+				id: "3499EFA44B6E2F35"
+				title: "Краткий обзор"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+	]
+	title: "0. &7 Для новеньких &7"
+}

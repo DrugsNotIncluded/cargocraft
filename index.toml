@@ -26,7 +26,7 @@ hash = "e96cfe7540c079e48626fde4e55fa46728f36ff25f02b488dc7d59d4587796a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3a.snbt"
-hash = "8163abd650f47f4fd16a94945a7b0f847a125c26a77e53ba8a95662b8e1e1826"
+hash = "7ca989ef82a87566b144e36db0dd1b4060dc033d4907f7617419d79827b63ac1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4_computer_craft_4.snbt"
@@ -851,7 +851,7 @@ hash = "826974b78e9df76b7103fad1de8b567ea1869b3c75c2f52a6238645d9c139349"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "f986b015dd8241a9feab986c76a963677c285e8af2cf04cdc7241c155de99113"
+hash = "f083a84bc1cac4e0116963256d032266a5302584970e2c40df052b26c883bf34"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
@@ -1252,13 +1252,13 @@ hash = "e93f24623fe48bd7eee6e54e80c223ce71e639e210372124b8f22dd6b72924cc"
 metafile = true
 
 [[files]]
-file = "mods/journeymap.pw.toml"
-hash = "755b767fe1f7aa8e3e86f257a72364feb46df13655f6454f81cd565ecbeccc40"
+file = "mods/journey-pac.pw.toml"
+hash = "1d111a29ce85a87bc5c8dd4e9f2f12dfe6b63477cfbebb8aeca7650c0f8abdaa"
 metafile = true
 
 [[files]]
-file = "mods/just-enough-archaeology.pw.toml"
-hash = "a343ed41b2955426d696884d6bd39d354c991718166192cbf397f45aaa18a292"
+file = "mods/journeymap.pw.toml"
+hash = "755b767fe1f7aa8e3e86f257a72364feb46df13655f6454f81cd565ecbeccc40"
 metafile = true
 
 [[files]]
@@ -1358,6 +1358,11 @@ metafile = true
 [[files]]
 file = "mods/oculus.pw.toml"
 hash = "524acd510387c61c5f3c984e605fae03015434ae756b683d3b45a95951180394"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "6215edafc91907e5eda9ca3abab113456fd3f8675b6acdbd58282fc3fcd6a3bb"
 metafile = true
 
 [[files]]

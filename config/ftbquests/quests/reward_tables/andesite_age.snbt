@@ -1,0 +1,18 @@
+{
+	id: "32B981F811A56822"
+	loot_size: 3
+	order_index: 0
+	rewards: [
+		{ count: 5, item: "create:cogwheel", weight: 0.03f }
+		{ item: "create:large_cogwheel", weight: 0.030000001f }
+		{ count: 10, item: "create:shaft", weight: 0.07f }
+		{ count: 5, item: "minecraft:dark_oak_log", weight: 0.2f }
+		{ count: 2, item: "create:blaze_burner", weight: 0.08f }
+		{ count: 4, item: "create:andesite_alloy", weight: 0.8f }
+		{ count: 3, item: "minecraft:iron_ingot", weight: 0.3f }
+		{ item: "create:orange_toolbox", weight: 0.08f }
+		{ item: "create:encased_fan", weight: 0.05f }
+		{ item: "create:goggles", weight: 0.02f }
+	]
+	title: "Andesite Age"
+}

@@ -23,6 +23,11 @@ let EI = (id, x) => MOD('create_enchantment_industry', id, x)
 let VR = (id, x) => MOD("vinery", id, x)
 let NVR = (id, x) => MOD("nethervinery", id, x)
 let CU = (id, x) => MOD("createutilities", id, x)
+let CG = (id, x) => MOD("creategoggles", id, x)
+let SB = (id, x) => MOD("sophisticatedbackpacks", id, x)
+let SS = (id, x) => MOD("sophisticatedstorage", id, x)
+let CC = (id, x) => MOD("computercraft", id, x)
+let CT = (id, x) => MOD("createteleporters", id, x)
 
 let wood_types = [MC('oak'), MC('spruce'), MC('birch'), MC('jungle'), MC('acacia'), MC('dark_oak'), MC('crimson'), MC('warped')]
 
@@ -133,7 +138,7 @@ function andesiteMachine(event) {
 	let andesite_machine = (id, amount, other_ingredient) => {
 		event.remove({ output: id })
 		if (other_ingredient) {
-			event.smithing(Item.of(id, amount), MC('slime_ball'), 'kubejs:andesite_machine', other_ingredient)
+			event.smithing(Item.of(id, amount), CR('andesite_alloy'), 'kubejs:andesite_machine', other_ingredient)
 			event.recipes.createMechanicalCrafting(Item.of(id, amount), "AB", { A: 'kubejs:andesite_machine', B: other_ingredient })
 		}
 		else
@@ -152,6 +157,7 @@ function andesiteMachine(event) {
     andesite_machine(CR('andesite_funnel'), 4)
     andesite_machine(CR('andesite_tunnel'), 4)
     andesite_machine(CR('mechanical_mixer'), 1, CR('whisk'))
+    andesite_machine('sliceanddice:slicer', 1, CR('turntable'))
 }
 
 function eternalProduction(event) {
@@ -194,7 +200,7 @@ function eternalProduction(event) {
   ).transitionalItem(t3).loops(4)
   event.custom({
     "type": "create_new_age:energising",
-    "energy_needed": 5000,
+    "energy_needed": 1000,
     "ingredients": [
       {"item": QK('white_corundum_cluster')}],
     "results": [
@@ -233,7 +239,7 @@ function brassMachine(event) {
     let brass_machine = (id, amount, other_ingredient) => {
         event.remove({ output: id })
         if (other_ingredient) {
-            event.smithing(Item.of(id, amount), MC('slime_ball'), 'kubejs:brass_machine', other_ingredient)
+            event.smithing(Item.of(id, amount), CR('brass_ingot'), 'kubejs:brass_machine', other_ingredient)
             event.recipes.createMechanicalCrafting(Item.of(id, amount), "AB", { A: 'kubejs:brass_machine', B: other_ingredient })
         }
         else
@@ -263,15 +269,62 @@ function invarMachine(event) {
 		.loops(16)
 		.id('kubejs:invar_ingot')
 
-    let t = KJ('incomplete_radiant_sheet')
-    event.recipes.createSequencedAssembly([
-		KJ('radiant_sheet'),
-	], NA('overcharged_golden_sheet'), [
-		event.recipes.createDeploying(t, [t, MC('amethyst_shard')]),
-        event.recipes.createPressing(t, t)
-	]).transitionalItem(t)
-		.loops(2)
-		.id(KJ('radiant_sheet'))
+    event.recipes.create.haunting(MC('vine'), MC('twisting_vines'))
+    event.recipes.create.haunting(MC('twisting_vines'), MC('warped_roots'))
+    event.custom({
+      "type": "farmersdelight:cutting",
+      "ingredients": [
+        {
+          "item": MC('twisting_vines')
+        }
+      ],
+      "result": [
+        {
+          "count": 2,
+          "item": MC('warped_roots')
+        }
+      ],
+      "tool": {
+        "tag": "forge:tools/knives"
+      }
+    })
+
+    event.campfireCooking(MC('bone_meal'), MC('twisting_vines'))
+    event.recipes.create.pressing(QK('clear_shard', 4), MC('glass'))
+    event.recipes.create.emptying([Fluid.of(KJ('abyssal_blend'), 50), QK('red_corundum')], QK('violet_corundum'))
+    event.recipes.create.emptying([Fluid.of(KJ('abyssal_blend'), 50), QK('indigo_corundum')], QK('red_corundum'))
+    event.recipes.create.emptying([Fluid.of(KJ('abyssal_blend'), 50), QK('yellow_corundum')], QK('indigo_corundum'))
+    event.recipes.create.emptying([Fluid.of(KJ('abyssal_blend'), 50), QK('green_corundum')], QK('yellow_corundum'))
+    event.recipes.create.emptying([Fluid.of(KJ('abyssal_blend'), 50), QK('black_corundum')], QK('green_corundum'))
+    event.recipes.create.mechanical_crafting(QK('smithing_template_rune'), 
+      [
+        'RI',
+        'GY'],
+      {R:QK('red_corundum'), I:QK('indigo_corundum'), 
+      G:QK('green_corundum'), Y:QK('yellow_corundum')})
+    event.remove(QK('tools/crafting/rune_duplication'))
+    event.custom({
+      "type": "createdieselgenerators:basin_fermenting",
+      "ingredients": [
+        {
+          "item": QK('smithing_template_rune')
+        },
+        {
+          "fluid": DG('ethanol'),
+          "amount": 100
+        }
+      ],
+      "processingTime": 200,
+      "results": [
+        {
+          "item": KJ('radiant_sheet')
+        },
+        {
+          "fluid": MC('water'),
+          "amount": 100
+        }
+      ]
+    })
     event.recipes.create.mechanical_crafting(KJ('radiant_coil'), KJ('radiant_sheet'))
 
     event.custom({
@@ -332,7 +385,7 @@ function invarMachine(event) {
     let invar_machine = (id, amount, other_ingredient) => {
 		event.remove({ output: id })
 		if (other_ingredient) {
-			event.smithing(Item.of(id, amount), MC('slime_ball'), KJ('machine_frame'), other_ingredient)
+			event.smithing(Item.of(id, amount), KJ('invar_ingot'), KJ('machine_frame'), other_ingredient)
 			event.recipes.createMechanicalCrafting(Item.of(id, amount), "AB", { A: KJ('machine_frame'), B: other_ingredient })
 		}
 		else
@@ -343,38 +396,44 @@ function invarMachine(event) {
     invar_machine(EI('printer'), 1, CR('hose_pulley'))
 }
 
-function elytraEbat(event) {
-    // Mechanical core
-    event.recipes.create.mechanical_crafting(KJ('mechanical_core'), [
-        ' CCC ',
-        'CGDGC',
-        'CNSNC',
-        'CIEIC',
-        ' CCC '
-    ], {
-        C: KJ('invar_casing'),
-        G: CR('steam_engine'),
-        D: DE('differential'),
-        N: DG('engine_piston'),
-        S: QK('slime_in_a_bucket'),
-        I: KJ('inductive_mechanism'),
-        E: DG('engine_silencer')
-    })
-    // Living core
-    event.recipes.create.mixing(KJ('living_core'), 
-    [VR('creepers_crush'), VR('villagers_fright'), NVR('netherite_nectar'), Fluid.of(EI('hyper_experience'), 1000)]).superheated()
+function enderMachine(event) {
+  event.shaped(KJ('enderium_machine'), [
+		'SSS',
+		'SCS',
+		'SSS'
+	], {
+		C: 'createutilities:void_casing',
+		S: KJ('abstruse_mechanism')
+	})
 
-    event.recipes.create.mechanical_crafting(MC('elytra'), [
-        'PMP',
-        'PLP',
-        'VNV'
-    ], {
-        P:MC('phantom_membrane'),
-        M:KJ('mechanical_core'),
-        L:KJ('living_core'),
-        V:CU('void_steel_ingot'),
-        N:MC('nether_star')
-    })
+  let j = KJ('incomplete_abstruse_mechanism')
+  event.recipes.createSequencedAssembly([
+		KJ('abstruse_mechanism'),
+	], KJ('inductive_mechanism'), [
+		event.recipes.createDeploying(j, [j, GS('ender_jelly')]),
+		event.recipes.createDeploying(j, [j, GS('ender_jelly')]),
+		event.recipes.createDeploying(j, [j, DE('polyethene')])
+	]).transitionalItem(j)
+		.loops(2)
+		.id('kubejs:abstruse_mechanism')
+
+    let enderium_machine = (id, amount, other_ingredient) => {
+      event.remove({ output: id })
+      if (other_ingredient) {
+        event.smithing(Item.of(id, amount), GS('ender_jelly'), KJ('enderium_machine'), other_ingredient)
+        event.recipes.createMechanicalCrafting(Item.of(id, amount), "AB", { A: KJ('enderium_machine'), B: other_ingredient })
+    }
+    else
+			event.stonecutting(Item.of(id, amount), KJ('enderium_machine'))
+  }
+  enderium_machine(CU('void_motor'), 1, CR('shaft'))
+  enderium_machine(CU('void_chest'), 1, MC('chest'))
+  enderium_machine(CU('void_tank'), 1, CR('fluid_tank'))
+  enderium_machine(CT('gravity_stab'), 1, CT('redstone_pearl'))
+  enderium_machine(CT('tp_rec'), 1)
+  enderium_machine(CT('teleporter'), 1)
+  enderium_machine(CT('item_tp_rec'), 1)
+  enderium_machine(CT('item_tp'), 1)
 }
 
 function toolsRecipes(event) {
@@ -466,6 +525,12 @@ function tweaks(event) {
     // Steel
     event.remove({id: BC('melting/melt_steel_ingot')})
     event.remove({id: BC('melting/melt_steel_block')})
+    event.remove({id: BC('melting/melt_steel_block')})
+    event.remove({id: BC('compacting/forge_bronze_ingot')})
+    event.remove({id: BC('compacting/forge_steel_ingot')})
+    event.remove({id: QK('automation/crafting/crafter')})
+    event.remove({id: SS('crafting_upgrade')})
+    event.remove({id: SB('crafting_upgrade')})
     event.shapeless(KJ('steel_ingot'), BC('steel_scrap', 9))
     event.shapeless(BC('steel_scrap', 9), KJ('steel_ingot'))
     event.custom({
@@ -526,13 +591,34 @@ function tweaks(event) {
     event.remove('createdeco:compacting/industrial_iron_ingot')
     event.blasting('createdeco:industrial_iron_ingot', MC('iron_ingot'))
     event.remove(QK('tweaks/crafting/elytra_duplication'))
+    event.remove('create_jetpack:jetpack')
+    event.remove('create_jetpack:netherite_jetpack')
+    event.remove(CC('turtle_advanced/minecraft/crafting_table'))
+    event.remove(CC('turtle_normal/minecraft/crafting_table'))
     event.recipes.create.splashing(MC('clay_ball', 2), MC('mud'))
     event.recipes.create.milling(Item.of(MC('sand')).withChance(0.25), MC('gravel'))
+    event.recipes.create.mechanical_crafting(
+      'create_jetpack:jetpack',
+      [
+        ' CCC ',
+        'COOOC',
+        'CMJMC',
+        'CPSPC',
+        ' CCC '
+      ],
+      {
+        C:CR('brass_casing'),
+        O:NA('overcharged_iron_sheet'),
+        M:CR('precision_mechanism'),
+        J:CG('diamond_backtank'),
+        P:DG('engine_piston'),
+        S:DG('engine_silencer')
+      }
+    )
 }
 
 ServerEvents.recipes(event => {
     algalAndesite(event)
-    elytraEbat(event)
     eternalProduction(event)
     tweaks(event)
     toolsRecipes(event)
@@ -540,6 +626,7 @@ ServerEvents.recipes(event => {
     andesiteMachine(event)
     brassMachine(event)
     invarMachine(event)
+    enderMachine(event)
     cobblegen(event, MC("andesite"), [MC('lava'), MC('water')], MC('bedrock'), 1)
     cobblegen(event, MC("granite"), [MC('lava'), GS('red_mastic_resin')], MC('bedrock'), 1)
     cobblegen(event, MC("diorite"), [MC('lava'), MC('water')], MC('nether_quartz_ore'), 1)

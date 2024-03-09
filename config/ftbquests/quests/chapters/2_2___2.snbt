@@ -13,144 +13,289 @@
 			dependencies: ["2C7441A2EF2031B8"]
 			icon: "create:peculiar_bell"
 			id: "6FB396B6DE5CB6DC"
+			subtitle: "Клоунада 2: Продолжение"
 			tasks: [{
 				id: "66CECD5B347C52AA"
 				title: "Вторая глава: Начало"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6FB396B6DE5CB6DC"]
+			description: [
+				"Для этого нам всего-то понадобится &6миксер&r, ничего сложного"
+				""
+				"Периодически &2корунд&r растёт сам по себе под землёй, иногда &2кластерами&r. Они понадобятся нам позже."
+			]
 			icon: "quark:white_corundum"
 			id: "05211E4B2C47532C"
-			tasks: [{
-				id: "145F3F4FD9127CE0"
-				title: "Выращиваем корунд"
-				type: "checkmark"
+			rewards: [{
+				id: "48A3728A48369FE4"
+				item: "quark:white_corundum"
+				type: "item"
 			}]
-			x: -2.0d
+			subtitle: "Оно так не работает"
+			tasks: [
+				{
+					count: 2L
+					id: "49E4B342EC2ADA26"
+					item: "quark:clear_shard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "44E05E0CDB868583"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+			]
+			title: "Выращиваем корунд"
+			x: -2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3D252B9958247E08"]
+			description: [
+				"Итого:"
+				"У вас получается два &2корунда&r, один из которых можно отправить на производство, а второй пустить снова в дело!"
+			]
 			icon: "quark:white_corundum_cluster"
 			id: "2C6AEEBB0692B4CC"
-			tasks: [{
-				id: "68C33363A01F864E"
-				title: "Майнкрафтские фокусы"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FA19C635BE9718E"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
-			x: -2.0d
+			subtitle: "Почти как булыжник"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "31780EEE3908980A"
+				item: "quark:white_corundum_cluster"
+				type: "item"
+			}]
+			title: "Майнкрафтские фокусы"
+			x: -2.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["05211E4B2C47532C"]
+			description: [
+				"Нам понадобится смешать &2песок&r и немного &2молотого корунда&r, а затем полить получившееся &2семечки&r водой"
+				""
+				"Для этого вам нужен будет достаточно стабильный источник воды поступающей в &6Дозаторы&r."
+			]
 			icon: "kubejs:corundum_seed_1"
 			id: "3C53F1319E9C1D93"
+			subtitle: "Полить 4 раза"
 			tasks: [{
-				id: "7BDDEF4A0FCB6116"
-				title: "Выращиваем семечко"
-				type: "checkmark"
+				id: "2B14E6A5685D0BD7"
+				item: "kubejs:corundum_seed_1"
+				type: "item"
 			}]
 			title: "1. Выращиваем семечко"
-			x: -2.0d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3C53F1319E9C1D93"]
 			icon: "kubejs:corundum_seed_2"
 			id: "477E12638DB2FFE0"
+			subtitle: "Ещё 4 раза"
 			tasks: [{
-				id: "7CE73BF37CC32893"
-				title: "2. Выращиваем семечко"
+				id: "7890F6AB48F021F8"
+				title: "Я умница"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			title: "2. Выращиваем семечко"
+			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["477E12638DB2FFE0"]
 			icon: "kubejs:corundum_seed_3"
 			id: "3D252B9958247E08"
+			subtitle: "Ииииии.. ещё 4 раза"
 			tasks: [{
-				id: "3F6875825510B3D7"
-				title: "3. Выращиваем семечко"
+				id: "1314FF7293BCB863"
+				title: "Я умница"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			title: "3. Выращиваем семечко"
+			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6FB396B6DE5CB6DC"]
+			description: ["Возможно понадобятся?.."]
 			icon: "minecraft:diorite"
 			id: "15A8902F326C01AF"
-			tasks: [{
-				id: "287F2F7A4C48B406"
-				title: "Выбираем гальку"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E29A829187F7E61"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			subtitle: "Времяпровождение на пляже"
+			tasks: [
+				{
+					id: "34E40A8AE6DB3EFE"
+					item: "minecraft:tuff"
+					type: "item"
+				}
+				{
+					id: "3687C5DE99456493"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					id: "3A35B44A6CC1AE5C"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+				{
+					id: "7EF6A552C3EF94C6"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "5A87ADC799D1227A"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					id: "5B531D1561CA6AE4"
+					item: "minecraft:calcite"
+					type: "item"
+				}
+			]
+			title: "Выбираем гальку"
 			x: -0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["15A8902F326C01AF"]
+			description: ["Понадобятся для небольшого эксперимента"]
 			icon: "create_new_age:thorium"
 			id: "79FD328C0224D9A0"
-			tasks: [{
-				id: "0FD166E9012081EA"
-				title: "Шоу \"Эксперименты\""
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "355D6B423B946EE1"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			subtitle: "Ебанёт? Не должно."
+			tasks: [{
+				count: 32L
+				id: "204292DBB31B7F5A"
+				item: "create_new_age:thorium"
+				type: "item"
+			}]
+			title: "Шоу \"Эксперименты\""
 			x: -0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["79FD328C0224D9A0"]
+			description: [
+				"Используя предметы из двух предыдущих шагов получи в миксере.."
+				"&5фиолетовый батон&r?"
+				"Больше одного &6точно&r не нужно будет"
+			]
 			icon: "kubejs:eternal_ingot"
 			id: "292B7D951251CF4B"
-			tasks: [{
-				id: "1C4656B2CDF37259"
-				title: "Фиолетовый батон"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E221672944EC32A"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			subtitle: "Это единоразовая акция"
+			tasks: [{
+				id: "5F0F86A05C1A7356"
+				item: "kubejs:eternal_ingot"
+				type: "item"
+			}]
+			title: "Фиолетовый батон"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["292B7D951251CF4B"]
+			description: [
+				"Совсем не крошится руками."
+				"Жёрновами тоже не крошится.. и даже колёсами."
+				"Хтоническая хуйня"
+			]
 			icon: "kubejs:grain_of_infinity"
 			id: "7D630ED1D807B675"
-			tasks: [{
-				id: "526CF294D26236A5"
-				title: "Бесконечные крошки"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F3C3EACD699C13F"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			subtitle: "Оно размножается"
+			tasks: [{
+				id: "2C2B1C9C87E3C820"
+				item: "kubejs:grain_of_infinity"
+				type: "item"
+			}]
+			title: "Бесконечные крошки"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7D630ED1D807B675"]
+			description: [
+				"Батоновуха."
+				"Смешай немного &5пыли&r из предыдущего квеста и &2воды&r."
+			]
 			icon: "kubejs:abyssal_blend_bucket"
 			id: "72C77F67761BA7F0"
-			tasks: [{
-				id: "1FE67AFE6B3D2613"
-				title: "Страшная жижа"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F22A3900C841FDB"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			subtitle: "Ну давай, выпей ещё"
+			tasks: [{
+				id: "3FA48A9F06B95104"
+				item: "kubejs:abyssal_blend_bucket"
+				type: "item"
+			}]
+			title: "Страшная жижа"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["2C6AEEBB0692B4CC"]
+			dependencies: [
+				"2C6AEEBB0692B4CC"
+				"0F29A7E8E9DB7453"
+			]
+			description: [
+				"Для последующего этапа нам понадобится &2заряженный корунд&r,"
+				"Нет, он не будет использоваться в процессе, но нам нужно будет его каждый раз &bперезаряжать&r."
+			]
 			icon: "kubejs:overcharged_white_corundum_cluster"
 			id: "38D4341724FF45D4"
-			tasks: [{
-				id: "50387BFBF4A7D37F"
-				title: "Батарейка"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D2705620657EF7B"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			subtitle: "Кисленькая"
+			tasks: [{
+				id: "633DC552C574FC05"
+				item: "kubejs:overcharged_white_corundum_cluster"
+				type: "item"
+			}]
+			title: "Батарейка"
 			x: -4.0d
 			y: 2.0d
 		}
@@ -159,49 +304,85 @@
 				"38D4341724FF45D4"
 				"72C77F67761BA7F0"
 			]
+			description: ["Ну. Терять уже нечего, можешь кинуть &2заряженый корунд&r и &2жижу&r в один &6чан&r, возможно &5что-то&r получится."]
 			icon: "minecraft:redstone_block"
 			id: "5AB77D764B24036D"
+			subtitle: "YOLO"
 			tasks: [{
-				id: "23EC35D203581047"
-				title: "Жиденький редстоун"
+				id: "42825E30BE9AAF59"
+				title: "Я умница"
 				type: "checkmark"
 			}]
+			title: "Жиденький редстоун"
 			x: -4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6FB396B6DE5CB6DC"]
+			description: ["Ты уже знаешь как получать гравий перемолкой и промывать вещи водой, теперь нужно всего-то проделать это же с гравием"]
 			icon: "minecraft:iron_block"
 			id: "0BEBE083A598BC3A"
-			tasks: [{
-				id: "08B8CD0D0B7EA239"
-				title: "Ферма железа"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B3074B8598EDF02"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			subtitle: "Ванильная всё ещё лучше("
+			tasks: [{
+				id: "595360D24DA8E80B"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			title: "Ферма железа"
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0BEBE083A598BC3A"]
+			description: ["Для производства электронных ламп нам понадобится чугун"]
 			icon: "createbigcannons:cast_iron_ingot"
 			id: "093D8D8605A77B7D"
-			tasks: [{
-				id: "21B3E51C2856FA3C"
-				title: "Обработка"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F621551156CE2C6"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			subtitle: "Чугуний"
+			tasks: [{
+				id: "7671594DB75DE06F"
+				item: "createbigcannons:cast_iron_ingot"
+				type: "item"
+			}]
+			title: "Обработка"
 			x: 1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["093D8D8605A77B7D"]
+			description: ["Чугун нужно расплавить и перелить в Дозатор"]
 			icon: "createbigcannons:molten_cast_iron_bucket"
 			id: "5373FB5B59B92894"
-			tasks: [{
-				id: "019076CC04B13652"
-				title: "Закалённый металл"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "701D98797DF6666E"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			tasks: [
+				{
+					id: "60AFF4914BD6451F"
+					item: "createbigcannons:molten_cast_iron_bucket"
+					type: "item"
+				}
+				{
+					id: "015CAAFBD9123E62"
+					item: "createbigcannons:basin_foundry_lid"
+					type: "item"
+				}
+			]
+			title: "Закалённый металл"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -210,15 +391,23 @@
 				"5AB77D764B24036D"
 				"2C6AEEBB0692B4CC"
 			]
+			description: ["Перемешивать &2корунд&r с &2жидким красным камнем&r будет явно более здравой идеей чем натачивать его &2наждачкой&r три часа."]
 			icon: "create:polished_rose_quartz"
 			id: "3A08BB53D0AE87D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AD92135E4DD1499"
+				table_id: 1285809363343611032L
+				type: "loot"
+			}]
+			subtitle: "Молоток > Паяльник"
 			tasks: [{
-				id: "730063478FB5DA40"
-				title: "Электронные лампы"
-				type: "checkmark"
+				id: "5407E5C7E132D888"
+				item: "create:polished_rose_quartz"
+				type: "item"
 			}]
 			title: "Электронные компоненты"
-			x: -2.0d
+			x: -2.5d
 			y: 4.0d
 		}
 		{
@@ -226,13 +415,25 @@
 				"3A08BB53D0AE87D9"
 				"5373FB5B59B92894"
 			]
+			description: [
+				"Название исчерпывающее."
+				"Просто капни &6дозатором&r расплавленного &2чугуна&r на &2розовый кварц&r и готово."
+			]
 			icon: "create:electron_tube"
 			id: "0533E188CEC09DF1"
-			tasks: [{
-				id: "683A0D11D034A328"
-				title: "Электронные лампы"
-				type: "checkmark"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1441827E365FD528"
+				table_id: 1285809363343611032L
+				type: "loot"
 			}]
+			subtitle: "Из говна и палок"
+			tasks: [{
+				id: "44E9CDE4B6C63643"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Электронные лампы"
 			x: 1.0d
 			y: 4.5d
 		}
@@ -241,17 +442,28 @@
 				"0533E188CEC09DF1"
 				"240F684DE164768B"
 			]
+			description: ["Теперь осталось по аналогии с &7первой главой&r собрать всё всё воедино, на этот раз вместо инструмента у нас &9отвёртка&r. Оригинально."]
 			icon: "create:precision_mechanism"
 			id: "141F2FF51784B313"
-			tasks: [{
-				id: "6B82EE81D8736F91"
-				title: "Точная сборка"
-				type: "checkmark"
+			rewards: [{
+				count: 32
+				id: "3407267AC1A66979"
+				item: "create:precision_mechanism"
+				type: "item"
 			}]
+			subtitle: "Модпак на пару дней"
+			tasks: [{
+				id: "7ACC33730CE9DD89"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Точная сборка"
 			x: 1.0d
 			y: 6.5d
 		}
 		{
+			dependencies: ["6FB396B6DE5CB6DC"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "kubejs:screwdriver"
@@ -260,12 +472,123 @@
 				}
 			}
 			id: "240F684DE164768B"
+			subtitle: "Она самая"
 			tasks: [{
-				id: "0BF0232A59299D89"
-				title: "Отвёртка"
+				id: "07B4A65CBF17809A"
+				item: {
+					Count: 1b
+					id: "kubejs:screwdriver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Отвёртка"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["11A4215C762D5AB0"]
+			description: ["&2Зарядник&r позволит использовать нам энергию с катушки для преобразования некоторых предметов."]
+			id: "0F29A7E8E9DB7453"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22F55634525D4478"
+				table_id: 1285809363343611032L
+				type: "loot"
+			}]
+			subtitle: "Сила прогресса"
+			tasks: [{
+				id: "14E293163845E8A5"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			title: "Зарядник"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FB396B6DE5CB6DC"]
+			description: [
+				"Для дальнейшего развития нам понадобится &3электроэнергия&r."
+				"Для начала постройте конструкцию из &2катушки&r по середине и по 3 &2магнита&r с каждой из сторон, а затем присоедините &2карбоновые щетки&r к катушке."
+				""
+				"&aДля визуализации наведите на катушку и зажмите \"W\".&r"
+				""
+				"&eПомните, чтобы вырабатывать энергию сама катушка должна крутиться.&r"
+				""
+				"&eЧем быстрее крутится катушка, тем больше энергии вырабатывается&r. "
+			]
+			icon: "createdeco:decal_electrical"
+			id: "11A4215C762D5AB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C3E52328709D054"
+				table_id: 1285809363343611032L
+				type: "random"
+			}]
+			subtitle: "Никакой магии"
+			tasks: [
+				{
+					count: 12L
+					id: "7C1530E02A1B8F55"
+					item: "create_new_age:magnetite_block"
+					type: "item"
+				}
+				{
+					id: "5A6D8D8D3D879424"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+				{
+					id: "587AEE5853730D18"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+			]
+			title: "Генератор энергии"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"141F2FF51784B313"
+				"5C80F812E8C807D6"
+			]
+			icon: "kubejs:brass_machine"
+			id: "3BEF8E1E52F549D4"
+			tasks: [{
+				id: "33EB09729D80004E"
+				title: "Точное приспособление"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5288FFA829A64B99"]
+			icon: "create:brass_casing"
+			id: "5C80F812E8C807D6"
+			tasks: [{
+				id: "471DF21E8271AAA4"
+				title: "Латунная обивка"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6FB396B6DE5CB6DC"]
+			hide_dependency_lines: true
+			icon: "create:mechanical_mixer"
+			id: "5288FFA829A64B99"
+			tasks: [{
+				id: "11CD601623C6C798"
+				title: "Смешивание металлов"
+				type: "checkmark"
+			}]
+			x: 2.5d
 			y: 5.5d
 		}
 	]

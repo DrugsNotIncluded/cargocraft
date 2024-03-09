@@ -12,6 +12,7 @@
 			description: [
 				"Пак разделён на несколько ступеней прогрессии"
 				"Большая её часть взята из Create: Above and Beyond"
+				"Квесты писались в 2 часа ночи, смиритесь с тупыми хиханьки-хаханьки"
 			]
 			icon: "minecraft:grass_block"
 			id: "610DB5CA14C24C61"
@@ -38,7 +39,7 @@
 				title: "Андезитовые машины"
 				type: "checkmark"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -51,7 +52,7 @@
 				type: "checkmark"
 			}]
 			title: "Кинетические механизмы"
-			x: -3.5d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -63,11 +64,11 @@
 				title: "Латунный век"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -0.5d
 		}
 		{
-			dependencies: ["3102FDAB1EBA8C36"]
+			dependencies: ["490888DDEDEFBCED"]
 			icon: "kubejs:radiant_coil"
 			id: "1D67640ABC19C723"
 			tasks: [{
@@ -75,7 +76,7 @@
 				title: "Заводы мои заводы.."
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -87,7 +88,7 @@
 				title: "Индуктивные механизмы"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -99,7 +100,7 @@
 				title: "Чета на умном"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -111,8 +112,20 @@
 				title: "Цыганские фокусы"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3102FDAB1EBA8C36"]
+			icon: "create:precision_mechanism"
+			id: "490888DDEDEFBCED"
+			tasks: [{
+				id: "30995E6164A4346C"
+				title: "Точные механизмы"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
 		}
 	]
 	title: "&a Обзор &a"

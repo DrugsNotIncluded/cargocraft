@@ -14,15 +14,15 @@ hash = "b7a393c61fe6452f064fb92605c26eba98a47a597a18874b1e8304075bc3de82"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1E800592BB3E3B67.snbt"
-hash = "4ec6c47b492d5e291a9adaa3ec69b9c1b99b99b84d9a2082a98a5fa57e6beed3"
+hash = "b277742d343be80c2a64b9d807f4c8400b13985a671927119ed7fd1b796899a9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/26E98A95425A34C1.snbt"
-hash = "b16f93d2ebd149aba6beb3dfcac9472314334ac308b88dfa76fc2921005695b0"
+hash = "5fe193732f03469a35368cc6fb989c422d6b7afea4b65481343ea09ccb2b2be1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2_2___2.snbt"
-hash = "22af5f788e664d63d7e27989b0174df34e1de7bee286a2da3b9c49aacef95a86"
+hash = "e96cfe7540c079e48626fde4e55fa46728f36ff25f02b488dc7d59d4587796a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3a.snbt"
@@ -42,7 +42,7 @@ hash = "fe8b29695e430647118af6c9ded8d0ef7e491035716e803251f5e7240ff999b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7A9F11EA82BD513E.snbt"
-hash = "d9ab8a10046222137a50c800d90bda4eee7720fcea07a3b2d57d33bf09432714"
+hash = "80e4ba76b1317218a00bfc263d3d649c033dd2390ab124957c100ed6c967d800"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -77,9 +77,37 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "1478e6ed007ffb13d7d271f7b112bda050ef0e3a06d6f9fb0e68b2e233a6b370"
 
 [[files]]
+file = "config/ftbquests/quests/reward_tables/andesite_age.snbt"
+hash = "53b80ea11d38a8ce3bfa96404fbf863134b070f6f2579c4b761ca425d1cd88d1"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/brass_age.snbt"
+hash = "99de1ac4d42660c9b35add6528cb4291754e88539f2ea93cf109ef83ad4ebe5e"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/chromatic_age.snbt"
+hash = "b341aa0f4a00993dcd9bf9364341999ebc1bd1d78c18c2bc74b79950255d2a96"
+
+[[files]]
 file = "datapacks/create-structures.pw.toml"
 hash = "d88d1845469a6f316eede279741cdedfc7489b3bef6c66405fff999e70d6c189"
 metafile = true
+
+[[files]]
+file = "global_packs/required_data/Create Guns 1.2.0 - 1.20.1.zip"
+hash = "9ea7661a386ce709b25091f72730513fd68a549847cb825b6d7fb131cd1e03e9"
+
+[[files]]
+file = "global_packs/required_resources/1.20 Create Computers 1.2.zip"
+hash = "f90610cd0e64c25b45399aab0c0e84c7131d7bc14edc6d0c31706a33b36d8518"
+
+[[files]]
+file = "global_packs/required_resources/Create Guns 1.2.0 - 1.20.1.zip"
+hash = "9ea7661a386ce709b25091f72730513fd68a549847cb825b6d7fb131cd1e03e9"
+
+[[files]]
+file = "global_packs/required_resources/Create Style Modded Compats v16.zip"
+hash = "c55adaae45cf72500999fa8763d7709bbdbecb6ade653c76586ee3be2eca30b6"
 
 [[files]]
 file = "icon.png"
@@ -823,7 +851,7 @@ hash = "826974b78e9df76b7103fad1de8b567ea1869b3c75c2f52a6238645d9c139349"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "42d42bffc1905c6713a181bfd83b054288c59075c52ddc8ed95f5cd1727b5ab2"
+hash = "f986b015dd8241a9feab986c76a963677c285e8af2cf04cdc7241c155de99113"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
@@ -1040,7 +1068,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "c464b21ac8baf5ed1d22a0c4bacfcf24977e04dc938add65a2a93bcaf704c22e"
+hash = "6ecc31d75d379730df8fe950438b4ca26ed1daa8612406374552665f9222f9ea"
 metafile = true
 
 [[files]]
@@ -1144,6 +1172,11 @@ hash = "8d028df2ad0caa980db1ca25d8d6af87e73762d6fb65c8b0fdfb6fedaf5c3499"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "0d43726a6fe83f1064237efbe1362bb15110a5e5dffc2d953b43e1893cb00080"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "0d2a80abab32de6a2094520dacb0fbca2d1a66f6c7f3c6f441c07320e2572856"
 metafile = true
@@ -1171,6 +1204,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "cd78d571bf4a7e90cf67e1bfaa868bb2fecf396eff126b2313ff846ae834ed68"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "4af3085e1acb71c9eed4a35981f14b542fb986bf8a4afa2fa6f02e9e86117227"
 metafile = true
 
 [[files]]
@@ -1300,6 +1338,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "d71fd32a56325b8fe378cfafe78f81d985436b2fd44638f5bab1f1386680b096"
+metafile = true
+
+[[files]]
+file = "mods/mrcrayfishs-gun-mod-unofficial.pw.toml"
+hash = "3ab3bc507913dcec1d4b6f324ad0a0993eb24583964cd686122cdb960371f3fb"
 metafile = true
 
 [[files]]
@@ -1535,14 +1578,4 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "ffa25af53cf0e78b250f5f1a3267c47a763e67b048f18aea8228508240c535f9"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-pbr.pw.toml"
-hash = "e7685ae0a7248fd09f9e510246ce76072a72638dc905fd06d0edff5fc8808b86"
-metafile = true
-
-[[files]]
-file = "resourcepacks/defaultpbr.pw.toml"
-hash = "24c486844155477c8c0e3dc0563ee291235e4a15032ab7ea2016fc792d7def56"
 metafile = true

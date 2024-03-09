@@ -7,6 +7,53 @@
 	id: "198792FAEFD573D3"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: "createutilities:void_tank"
+			id: "1152D9A956311B94"
+			tasks: [{
+				id: "1833D6468CAE93D5"
+				title: "Беспроводные жидкости"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			icon: "createutilities:void_chest"
+			id: "51DB20520697B32C"
+			tasks: [{
+				id: "4A777CE3E56A7DC0"
+				title: "Беспроводные предметы"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			icon: "createutilities:void_motor"
+			id: "5946AE913DA96700"
+			tasks: [{
+				id: "1F403E60C8509064"
+				title: "Беспроводное вращение"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			icon: "forbidden_arcanus:eternal_obsidian_skull"
+			id: "548DC85B6A7E52BD"
+			shape: "gear"
+			subtitle: "&5 Гайды кончились, думай сам"
+			tasks: [{
+				id: "33B236D0278B52CE"
+				title: "Кто хочет тот соберёт)"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+	]
 	title: "3A. &5 Цыганские фокусы &5"
 }

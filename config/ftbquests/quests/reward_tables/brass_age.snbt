@@ -1,0 +1,58 @@
+{
+	id: "11D81CCDAEF79498"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 4, item: "quark:white_corundum", weight: 0.07f }
+		{
+			item: {
+				Count: 1b
+				id: "creategoggles:diamond_backtank"
+				tag: { }
+			}
+			weight: 0.01f
+		}
+		{ item: "create:mechanical_arm", weight: 0.02f }
+		{
+			item: {
+				Count: 1b
+				id: "create_jetpack:jetpack"
+				tag: {
+					Air: 900.0f
+				}
+			}
+			weight: 0.002f
+		}
+		{ count: 4, item: "create:zinc_ingot", weight: 0.1f }
+		{ count: 4, item: "minecraft:copper_ingot", weight: 0.1f }
+		{ item: "create:brass_funnel", weight: 0.07f }
+		{ count: 8, item: "create_new_age:thorium", weight: 0.04f }
+		{ item: "create:brass_tunnel", weight: 0.07f }
+		{ count: 2, item: "create:electron_tube", weight: 0.09f }
+		{
+			item: {
+				Count: 1b
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 0.02f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create:potato_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03f
+		}
+		{ item: "create:brass_ingot", weight: 0.6f }
+	]
+	title: "Brass Age"
+}

@@ -867,6 +867,10 @@ hash = "7318b31316fd07d9389d03e0cf62bfeff8ec92c869ab5bea0a7a3aa4508790bc"
 metafile = true
 
 [[files]]
+file = "mods/Recipes For Create-0.6.0-(1.21.1).jar"
+hash = "c2b0b084c5bd3833c9c6713d9ae11596769777230bf56727efe062be5b6a64bb"
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "8c4e8adf119e1cecee4ad94dec5a636846b73b7a45264e94434e90dff019eaf8"
 metafile = true
@@ -979,11 +983,6 @@ metafile = true
 [[files]]
 file = "mods/convenient_curios_container.pw.toml"
 hash = "0a98273b05d590d758d2ca565fd5d8d5b1111421aed0be597ee1a27ccf1167bd"
-metafile = true
-
-[[files]]
-file = "mods/crafting-recipes-for-create.pw.toml"
-hash = "b1be9f64c5547b057f8e37c6dac21baa7d23c138a4b58db2536e2db28a907015"
 metafile = true
 
 [[files]]
@@ -1212,6 +1211,11 @@ hash = "4af3085e1acb71c9eed4a35981f14b542fb986bf8a4afa2fa6f02e9e86117227"
 metafile = true
 
 [[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "2143dc055ae837c6a4de5da8dd228cacf73dbe872a5c603a28f5e623e22ea5e6"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
 metafile = true
@@ -1323,6 +1327,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "712ac79bb4012b906355269fa28ac92c1cae6bf37b43a4dcd1320f98a323b4b2"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+hash = "b1fe23077d4bbd8ca306ed1a5728db4b62c7e1d9674cf3bc5ee332e02b6ad750"
 metafile = true
 
 [[files]]
@@ -1478,6 +1487,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "97ff489cce6b7ad5a4ed965e09a960efc5f6ad7a6cf4f070a47c8de8d00d917f"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "a223144b40f462c2675ecdd193509a27f754b6fd2d1c5c4c4baf2204f1d99924"
 metafile = true
 
 [[files]]

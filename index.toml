@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "a6a8c77e8c48ce1049fee7d13ff5b893d281646b5e71d258257cde04e0d5c283"
+hash = "a94fd5c5c904d2572f044f07eb959bd4610f65a1297aff66c0ec5ace3ce9c313"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -873,6 +873,11 @@ hash = "c2b0b084c5bd3833c9c6713d9ae11596769777230bf56727efe062be5b6a64bb"
 [[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "8c4e8adf119e1cecee4ad94dec5a636846b73b7a45264e94434e90dff019eaf8"
+metafile = true
+
+[[files]]
+file = "mods/amendments.pw.toml"
+hash = "7168ed0c635c49ce5692a051bcc97e6043b6a42f1ecd9d421a1f8597b76715f9"
 metafile = true
 
 [[files]]

@@ -1226,6 +1226,11 @@ hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
 metafile = true
 
 [[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "3f8021342d54a239164712721bf5c0c424b47eb689fd573d68e44681904998c3"
+metafile = true
+
+[[files]]
 file = "mods/incendium.pw.toml"
 hash = "05bedf66c1081d32e21bfd72b11b218a56090461ebd7c9ffd311a81fbb1bfde6"
 metafile = true
@@ -1268,6 +1273,11 @@ metafile = true
 [[files]]
 file = "mods/journeymap.pw.toml"
 hash = "755b767fe1f7aa8e3e86f257a72364feb46df13655f6454f81cd565ecbeccc40"
+metafile = true
+
+[[files]]
+file = "mods/joy-of-painting.pw.toml"
+hash = "3e7972e002c83cec1c92da444fed68ec30dcc36db0c8812d0431c81d33467c00"
 metafile = true
 
 [[files]]

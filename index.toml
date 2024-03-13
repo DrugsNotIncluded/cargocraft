@@ -901,6 +901,11 @@ hash = "21693570dd62ad5e53ab74e69012b427621291f258a66387f0da6a9d3819a41f"
 metafile = true
 
 [[files]]
+file = "mods/automodpack.pw.toml"
+hash = "2e0da46307fe87a492d5a1a449c84f8a697490f4b3dcfc6d742f029f7efadbd7"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "1447df8a4bd1fd2cce2ae71f900f3d1f1626baa2fe37c877cef19549a4101c36"
 metafile = true
@@ -1412,6 +1417,11 @@ metafile = true
 [[files]]
 file = "mods/presence-footsteps-forge.pw.toml"
 hash = "81006dc530e5aaeb55c00b6891f73cd9e2fc1f3f3b84819df3a00c4aae151c2d"
+metafile = true
+
+[[files]]
+file = "mods/prometheus.pw.toml"
+hash = "fbacb8db377af826017ddc1b7da81258f677b2b2ea94a08e8f528aec473de35f"
 metafile = true
 
 [[files]]

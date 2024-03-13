@@ -1,0 +1,13 @@
+name = "AutoModpack"
+filename = "automodpack-forge-4.0.0-beta1-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/k68glP2e/versions/tMOlKvvo/automodpack-forge-4.0.0-beta1-1.20.1.jar"
+hash-format = "sha1"
+hash = "a61a7989fab2787673914352478a21189200f0c7"
+
+[update]
+[update.modrinth]
+mod-id = "k68glP2e"
+version = "tMOlKvvo"

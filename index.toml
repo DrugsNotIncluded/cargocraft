@@ -881,6 +881,16 @@ hash = "7168ed0c635c49ce5692a051bcc97e6043b6a42f1ecd9d421a1f8597b76715f9"
 metafile = true
 
 [[files]]
+file = "mods/apotheosis.pw.toml"
+hash = "ea524efc9a14ddcc97dd06331db45702aec49247dcea3087550e812a0375af10"
+metafile = true
+
+[[files]]
+file = "mods/apothic-attributes.pw.toml"
+hash = "3d900f5a6f8ff7b26fc072a3d5dafa25fa8f5cf0ee260298551abe27a3c3a71d"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "5d03b477df607fc4fa5cde634a6e870413ab097ff9222d2f0a465ac0fbcdbea4"
 metafile = true
@@ -933,6 +943,11 @@ metafile = true
 [[files]]
 file = "mods/bocchium.pw.toml"
 hash = "7ec99baf6e863d37c9c5cf5960ca4adeaa9e6b4e83b956e5985807b460877cf7"
+metafile = true
+
+[[files]]
+file = "mods/born-in-chaos.pw.toml"
+hash = "22fcf579aaff2dc201070ab9a37e4bc1b0897f9994b40b51dafa9eec84064917"
 metafile = true
 
 [[files]]
@@ -1212,12 +1227,17 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "cd78d571bf4a7e90cf67e1bfaa868bb2fecf396eff126b2313ff846ae834ed68"
+hash = "5fbfa56a7bb591db33ffc31b2410ff5c7584fb1a21b4dd13687d51ad428643b2"
 metafile = true
 
 [[files]]
 file = "mods/globalpacks.pw.toml"
 hash = "4af3085e1acb71c9eed4a35981f14b542fb986bf8a4afa2fa6f02e9e86117227"
+metafile = true
+
+[[files]]
+file = "mods/grimoire-of-gaia.pw.toml"
+hash = "643c6227a071f371923ea427e38cfc1c72222ab75daec7f275a9246abad32de6"
 metafile = true
 
 [[files]]
@@ -1385,6 +1405,11 @@ hash = "f27ad5ca187c5dc5bb410a21eebc10ae03e65e58ceb0e2981f5dafac350c6b07"
 metafile = true
 
 [[files]]
+file = "mods/nyfs-spiders.pw.toml"
+hash = "361f5915170fc468704db1c693cfac69431b82fdefc380d6d2d7a95242799bb9"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "524acd510387c61c5f3c984e605fae03015434ae756b683d3b45a95951180394"
 metafile = true
@@ -1397,6 +1422,11 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "273a8491dae7a6e241f8d20d5b5cc42ee227b9abfa128734e450803665102918"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
 metafile = true
 
 [[files]]

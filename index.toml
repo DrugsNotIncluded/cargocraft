@@ -911,9 +911,8 @@ hash = "21693570dd62ad5e53ab74e69012b427621291f258a66387f0da6a9d3819a41f"
 metafile = true
 
 [[files]]
-file = "mods/automodpack.pw.toml"
-hash = "2e0da46307fe87a492d5a1a449c84f8a697490f4b3dcfc6d742f029f7efadbd7"
-metafile = true
+file = "mods/automodpack-forge-4.0.0-beta1-1.20.1.jar"
+hash = "7ed5eb788093ea9beb4e3a80ae3c8fffc3bca49ed090540bd8cbf03f7c3afd87"
 
 [[files]]
 file = "mods/balm.pw.toml"
@@ -1287,7 +1286,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "e93f24623fe48bd7eee6e54e80c223ce71e639e210372124b8f22dd6b72924cc"
+hash = "98727baa5596efd274e4f99cddda4f289931bc14f527261c76f1f959fc3a0eb3"
 metafile = true
 
 [[files]]

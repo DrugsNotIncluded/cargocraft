@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "repeatable": true
+  },
+  "dependencies": [
+    "1B74A301CFDD8E4D"
+  ],
+  "tasks": {
+    "7BCFD795225630BF": {
+      "type": "heracles:item",
+      "amount": 10,
+      "item": "createcoins:diamondcoin",
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "01D799BC833680C4": {
+      "title": "Iron saw",
+      "type": "heracles:item",
+      "item": {
+        "id": "kubejs:iron_saw",
+        "count": 1,
+        "nbt": {
+          "Modifier": "forbidden_arcanus:eternal"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Iron Saw",
+    "description": [
+      "<task task=\"7BCFD795225630BF\" quest=\"25BCADDF8A1F2579\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"01D799BC833680C4\" quest=\"25BCADDF8A1F2579\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:iron_saw"
+    },
+    "groups": {
+      "§a Это мы покупаем §a": {
+        "position": [
+          -224,
+          -80
+        ]
+      }
+    }
+  }
+}

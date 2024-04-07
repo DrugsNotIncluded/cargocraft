@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C6AEEBB0692B4CC",
+    "0F29A7E8E9DB7453"
+  ],
+  "tasks": {
+    "633DC552C574FC05": {
+      "type": "heracles:item",
+      "item": "kubejs:overcharged_white_corundum_cluster"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Батарейка",
+    "description": [
+      "<subtitle id=\"38D4341724FF45D4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"633DC552C574FC05\" quest=\"38D4341724FF45D4\"/>",
+      "<hr/>",
+      "Для последующего этапа нам понадобится &&2заряженный корунд&&r,",
+      "Нет, он не будет использоваться в процессе, но нам нужно будет его каждый раз &&bперезаряжать&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:overcharged_white_corundum_cluster"
+    },
+    "subtitle": {
+      "text": "Кисленькая"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -128,
+          64
+        ]
+      }
+    }
+  }
+}

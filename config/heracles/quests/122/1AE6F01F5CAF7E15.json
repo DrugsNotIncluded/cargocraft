@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "4127DE236C7E86E3"
+  ],
+  "tasks": {
+    "55246DEAB4BA6BF5": {
+      "type": "heracles:item",
+      "item": "kubejs:iron_saw",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"55246DEAB4BA6BF5\" quest=\"1AE6F01F5CAF7E15\"/>",
+      "<hr/>",
+      "Инструмент необходимый для сборочной линии, можете не автоматизировать его, позже появится возможность купить такой же, но бесконечный"
+    ],
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -80,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:iron_saw",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Временные инструменты"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

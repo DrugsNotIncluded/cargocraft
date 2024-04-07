@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A08BB53D0AE87D9",
+    "5373FB5B59B92894"
+  ],
+  "tasks": {
+    "44E9CDE4B6C63643": {
+      "type": "heracles:item",
+      "item": "create:electron_tube"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Электронные лампы",
+    "description": [
+      "<subtitle id=\"0533E188CEC09DF1\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"44E9CDE4B6C63643\" quest=\"0533E188CEC09DF1\"/>",
+      "<hr/>",
+      "Название исчерпывающее.",
+      "Просто капни &&6дозатором&&r расплавленного &&2чугуна&&r на &&2розовый кварц&&r и готово."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:electron_tube"
+    },
+    "subtitle": {
+      "text": "Из говна и палок"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          32,
+          144
+        ]
+      }
+    }
+  }
+}

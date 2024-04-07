@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "38D4341724FF45D4",
+    "72C77F67761BA7F0"
+  ],
+  "tasks": {
+    "42825E30BE9AAF59": {
+      "title": "Я умница",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Жиденький редстоун",
+    "description": [
+      "<subtitle id=\"5AB77D764B24036D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"42825E30BE9AAF59\" quest=\"5AB77D764B24036D\"/>",
+      "<hr/>",
+      "Ну. Терять уже нечего, можешь кинуть &&2заряженый корунд&&r и &&2жижу&&r в один &&6чан&&r, возможно &&5что-то&&r получится."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone_block"
+    },
+    "subtitle": {
+      "text": "YOLO"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -128,
+          128
+        ]
+      }
+    }
+  }
+}

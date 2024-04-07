@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1A41C285DE920119"
+  ],
+  "tasks": {
+    "32B6ED07A4F5DA82": {
+      "type": "heracles:item",
+      "item": "minecraft:twisting_vines"
+    }
+  },
+  "rewards": {
+    "40498827BE79204C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Бесконечная материя",
+    "description": [
+      "<subtitle id=\"1F1A621D175A04FA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"32B6ED07A4F5DA82\" quest=\"1F1A621D175A04FA\"/>",
+      "<hr/>",
+      "Лианы регенерируют даже из маленьких кусочков под воздействием огня душ. Это может понадобится.",
+      "<hr/>",
+      "<reward reward=\"40498827BE79204C\" quest=\"1F1A621D175A04FA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:twisting_vines"
+    },
+    "subtitle": {
+      "text": "Удивительные растения!"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          -64,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "Potacore"
+filename = "potacore-0.2.8-universal.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/55ByH6In/versions/TFCMmqRS/potacore-0.2.8-universal.jar"
+hash-format = "sha1"
+hash = "d1b8c491456b94b372e45d631a9a0fa72011cd2b"
+
+[update]
+[update.modrinth]
+mod-id = "55ByH6In"
+version = "TFCMmqRS"

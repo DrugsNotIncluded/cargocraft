@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "1833D6468CAE93D5": {
+      "title": "Беспроводные жидкости",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Беспроводные жидкости",
+    "description": [
+      "<task task=\"1833D6468CAE93D5\" quest=\"1152D9A956311B94\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "createutilities:void_tank"
+    },
+    "groups": {
+      "3A. §5 Цыганские фокусы §5": {
+        "position": [
+          16,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3C05CA996018EEAB",
+    "381468CAC228F22A"
+  ],
+  "tasks": {
+    "1925BCACA64FFB33": {
+      "type": "heracles:item",
+      "item": "kubejs:machine_frame"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Механизмы: 3 тир",
+    "description": [
+      "<task task=\"1925BCACA64FFB33\" quest=\"7C973D11229DEB3F\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:machine_frame"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          128,
+          144
+        ]
+      }
+    }
+  }
+}

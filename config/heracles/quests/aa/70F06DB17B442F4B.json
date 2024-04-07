@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "repeatable": true
+  },
+  "dependencies": [
+    "1B74A301CFDD8E4D"
+  ],
+  "tasks": {
+    "74C36AE9AEE5A434": {
+      "type": "heracles:item",
+      "amount": 10,
+      "item": "createcoins:diamondcoin"
+    }
+  },
+  "rewards": {
+    "5C65CB466A843D7D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "kubejs:screwdriver",
+        "count": 1,
+        "nbt": {
+          "Modifier": "forbidden_arcanus:eternal"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Screwdriver",
+    "description": [
+      "<task task=\"74C36AE9AEE5A434\" quest=\"70F06DB17B442F4B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5C65CB466A843D7D\" quest=\"70F06DB17B442F4B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:screwdriver"
+    },
+    "groups": {
+      "§a Это мы покупаем §a": {
+        "position": [
+          -192,
+          -80
+        ]
+      }
+    }
+  }
+}

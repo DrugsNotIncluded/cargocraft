@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4D4F8C7B186B220A": {
+      "title": "Первая глава: Начало",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Клоунада: Начало"
+    },
+    "description": [
+      "<subtitle id=\"4127DE236C7E86E3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4D4F8C7B186B220A\" quest=\"4127DE236C7E86E3\"/>",
+      "<hr/>",
+      "Этот модпак заточен на &&9автоматизацию процессов&&r производства, здесь &&eне будет гринда&&r ресурсов или прочей скучной фигни, но иногда придётся &&5думать мозгами&&r совсем немного."
+    ],
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -16,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Первая глава: Начало"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

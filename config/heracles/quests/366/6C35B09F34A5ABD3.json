@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1A41C285DE920119"
+  ],
+  "tasks": {
+    "3D1F253A2F887DBB": {
+      "title": "Хроматический резонатор",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Хроматический резонатор",
+    "description": [
+      "<task task=\"3D1F253A2F887DBB\" quest=\"6C35B09F34A5ABD3\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:chromatic_resonator"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          80,
+          112
+        ]
+      }
+    }
+  }
+}

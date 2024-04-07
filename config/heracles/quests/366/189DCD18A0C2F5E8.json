@@ -1,0 +1,26 @@
+{
+  "settings": {},
+  "dependencies": [
+    "11B9E1CFB5CC9304"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "Прекрасные цветы",
+    "description": [
+      "Автоматизируйте производство лилий для дальнейшего превращения в краситель"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lilac"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          -128,
+          0
+        ]
+      }
+    }
+  }
+}

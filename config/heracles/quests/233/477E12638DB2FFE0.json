@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3C53F1319E9C1D93"
+  ],
+  "tasks": {
+    "7890F6AB48F021F8": {
+      "title": "Я умница",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "2. Выращиваем семечко",
+    "description": [
+      "<subtitle id=\"477E12638DB2FFE0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7890F6AB48F021F8\" quest=\"477E12638DB2FFE0\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:corundum_seed_2"
+    },
+    "subtitle": {
+      "text": "Ещё 4 раза"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -80,
+          0
+        ]
+      }
+    }
+  }
+}

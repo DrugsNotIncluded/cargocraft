@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7EC4E06ED08F7237",
+    "6C35B09F34A5ABD3"
+  ],
+  "tasks": {
+    "2CC6AB596F637780": {
+      "type": "heracles:item",
+      "item": "kubejs:inductive_mechanism"
+    }
+  },
+  "rewards": {
+    "39E7D093349ABDCA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "kubejs:inductive_mechanism",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Чересчур умные механизмы",
+    "description": [
+      "<task task=\"2CC6AB596F637780\" quest=\"3C05CA996018EEAB\"/>",
+      "<hr/>",
+      "&&6Поздравляю!&&r",
+      "Вы автоматизировали все основные механизмы на данный момент, дальше в паке будут лишь механизмы для более лёгкой логистики",
+      "<hr/>",
+      "<reward reward=\"39E7D093349ABDCA\" quest=\"3C05CA996018EEAB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:inductive_mechanism"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          128,
+          112
+        ]
+      }
+    }
+  }
+}

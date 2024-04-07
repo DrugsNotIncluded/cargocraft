@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FB396B6DE5CB6DC"
+  ],
+  "tasks": {
+    "34E40A8AE6DB3EFE": {
+      "type": "heracles:item",
+      "item": "minecraft:tuff"
+    },
+    "3687C5DE99456493": {
+      "type": "heracles:item",
+      "item": "minecraft:diorite"
+    },
+    "3A35B44A6CC1AE5C": {
+      "type": "heracles:item",
+      "item": "minecraft:deepslate"
+    },
+    "7EF6A552C3EF94C6": {
+      "type": "heracles:item",
+      "item": "minecraft:stone"
+    },
+    "5A87ADC799D1227A": {
+      "type": "heracles:item",
+      "item": "minecraft:granite"
+    },
+    "5B531D1561CA6AE4": {
+      "type": "heracles:item",
+      "item": "minecraft:calcite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Выбираем гальку",
+    "description": [
+      "<subtitle id=\"15A8902F326C01AF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"34E40A8AE6DB3EFE\" quest=\"15A8902F326C01AF\"/>",
+      "<task task=\"3687C5DE99456493\" quest=\"15A8902F326C01AF\"/>",
+      "<task task=\"3A35B44A6CC1AE5C\" quest=\"15A8902F326C01AF\"/>",
+      "<task task=\"7EF6A552C3EF94C6\" quest=\"15A8902F326C01AF\"/>",
+      "<task task=\"5A87ADC799D1227A\" quest=\"15A8902F326C01AF\"/>",
+      "<task task=\"5B531D1561CA6AE4\" quest=\"15A8902F326C01AF\"/>",
+      "<hr/>",
+      "Возможно понадобятся?.."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:diorite"
+    },
+    "subtitle": {
+      "text": "Времяпровождение на пляже"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -16,
+          -64
+        ]
+      }
+    }
+  }
+}

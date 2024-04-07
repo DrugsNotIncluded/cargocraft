@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FB396B6DE5CB6DC"
+  ],
+  "tasks": {
+    "595360D24DA8E80B": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_block"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ферма железа",
+    "description": [
+      "<subtitle id=\"0BEBE083A598BC3A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"595360D24DA8E80B\" quest=\"0BEBE083A598BC3A\"/>",
+      "<hr/>",
+      "Ты уже знаешь как получать гравий перемолкой и промывать вещи водой, теперь нужно всего-то проделать это же с гравием"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_block"
+    },
+    "subtitle": {
+      "text": "Ванильная всё ещё лучше("
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          32,
+          -64
+        ]
+      }
+    }
+  }
+}

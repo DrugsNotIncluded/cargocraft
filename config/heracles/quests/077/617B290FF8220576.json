@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "43BF340968BDC5CB": {
+      "title": "Tom's Simple Storage",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tom's Simple Storage",
+    "description": [
+      "<task task=\"43BF340968BDC5CB\" quest=\"617B290FF8220576\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "toms_storage:ts.storage_terminal"
+    },
+    "groups": {
+      "0. §7 Для новеньких §7": {
+        "position": [
+          192,
+          -192
+        ]
+      }
+    }
+  }
+}

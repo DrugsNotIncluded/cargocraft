@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FB396B6DE5CB6DC"
+  ],
+  "tasks": {
+    "07B4A65CBF17809A": {
+      "type": "heracles:item",
+      "item": "kubejs:screwdriver"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Отвёртка",
+    "description": [
+      "<subtitle id=\"240F684DE164768B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"07B4A65CBF17809A\" quest=\"240F684DE164768B\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:screwdriver"
+    },
+    "subtitle": {
+      "text": "Она самая"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -16,
+          208
+        ]
+      }
+    }
+  }
+}

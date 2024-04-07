@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BEBE083A598BC3A"
+  ],
+  "tasks": {
+    "7671594DB75DE06F": {
+      "type": "heracles:item",
+      "item": "createbigcannons:cast_iron_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Обработка",
+    "description": [
+      "<subtitle id=\"093D8D8605A77B7D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7671594DB75DE06F\" quest=\"093D8D8605A77B7D\"/>",
+      "<hr/>",
+      "Для производства электронных ламп нам понадобится чугун"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "createbigcannons:cast_iron_ingot"
+    },
+    "subtitle": {
+      "text": "Чугуний"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          32,
+          -32
+        ]
+      }
+    }
+  }
+}

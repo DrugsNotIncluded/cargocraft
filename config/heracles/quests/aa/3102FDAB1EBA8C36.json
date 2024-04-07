@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3E04659B926647A7"
+  ],
+  "tasks": {
+    "5B818ECB234E493D": {
+      "title": "Латунный век",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Латунный век",
+    "description": [
+      "<task task=\"5B818ECB234E493D\" quest=\"3102FDAB1EBA8C36\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:electron_tube"
+    },
+    "groups": {
+      "§a Обзор §a": {
+        "position": [
+          -80,
+          -16
+        ]
+      }
+    }
+  }
+}

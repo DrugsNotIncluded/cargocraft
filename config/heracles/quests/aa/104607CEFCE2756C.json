@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "repeatable": true
+  },
+  "dependencies": [
+    "1B74A301CFDD8E4D"
+  ],
+  "tasks": {
+    "2065867F9EDAEFC5": {
+      "type": "heracles:item",
+      "amount": 15,
+      "item": "createcoins:diamondcoin"
+    }
+  },
+  "rewards": {
+    "1E19D4060BF77EE3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "kubejs:chromatic_resonator",
+        "count": 1,
+        "nbt": {
+          "Modifier": "forbidden_arcanus:eternal"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Chromatic Resonator",
+    "description": [
+      "<task task=\"2065867F9EDAEFC5\" quest=\"104607CEFCE2756C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1E19D4060BF77EE3\" quest=\"104607CEFCE2756C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:chromatic_resonator"
+    },
+    "groups": {
+      "§a Это мы покупаем §a": {
+        "position": [
+          -160,
+          -80
+        ]
+      }
+    }
+  }
+}

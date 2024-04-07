@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FB396B6DE5CB6DC"
+  ],
+  "tasks": {
+    "7C1530E02A1B8F55": {
+      "type": "heracles:item",
+      "amount": 12,
+      "item": "create_new_age:magnetite_block"
+    },
+    "5A6D8D8D3D879424": {
+      "type": "heracles:item",
+      "item": "create_new_age:carbon_brushes"
+    },
+    "587AEE5853730D18": {
+      "type": "heracles:item",
+      "item": "create_new_age:generator_coil"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Генератор энергии",
+    "description": [
+      "<subtitle id=\"11A4215C762D5AB0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7C1530E02A1B8F55\" quest=\"11A4215C762D5AB0\"/>",
+      "<task task=\"5A6D8D8D3D879424\" quest=\"11A4215C762D5AB0\"/>",
+      "<task task=\"587AEE5853730D18\" quest=\"11A4215C762D5AB0\"/>",
+      "<hr/>",
+      "Для дальнейшего развития нам понадобится &&3электроэнергия&&r.",
+      "Для начала постройте конструкцию из &&2катушки&&r по середине и по 3 &&2магнита&&r с каждой из сторон, а затем присоедините &&2карбоновые щетки&&r к катушке.",
+      "<br/>",
+      "&&aДля визуализации наведите на катушку и зажмите \"W\".&&r",
+      "<br/>",
+      "&&eПомните, чтобы вырабатывать энергию сама катушка должна крутиться.&&r",
+      "<br/>",
+      "&&eЧем быстрее крутится катушка, тем больше энергии вырабатывается&&r. "
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "createdeco:decal_electrical"
+    },
+    "subtitle": {
+      "text": "Никакой магии"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -128,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1BDE3E49C1999655": {
+      "title": "Sophisticated Backpacks",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1BDE3E49C1999655\" quest=\"1AF124F861681001\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "0. §7 Для новеньких §7": {
+        "position": [
+          256,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:netherite_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sophisticated Backpacks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

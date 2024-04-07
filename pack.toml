@@ -1,17 +1,13 @@
 name = "Cargocraft"
-author = "Humanised doll"
-version = "0.2.0"
+author = "4eburek"
+version = "0.3.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "420f479db52a0cdff5e91cd2426cbb3aed5ae4fb8e03773fbfbbc91c6638bdd3"
+hash = "dd33cd6e75c20160440974b0f6af2e1d83b83ee8aa3942321510827939f2fa34"
 
 [versions]
-forge = "47.2.20"
 minecraft = "1.20.1"
-
-[options]
-acceptable-game-versions = ["1.20.1"]
-datapack-folder = "datapacks"
+neoforge = "47.1.103"

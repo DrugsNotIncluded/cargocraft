@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2FE90A4E95ACB2EE"
+  ],
+  "tasks": {
+    "71C05F8A40C2DC8D": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:sand"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Песочек",
+    "description": [
+      "<subtitle id=\"1FE3D18B49E19860\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"71C05F8A40C2DC8D\" quest=\"1FE3D18B49E19860\"/>",
+      "<hr/>",
+      "Для следующего этапа нам понадобится &&bавтоматизировать&&r производство &&2песка&&r с помощью двух &&6жерновов&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sand"
+    },
+    "subtitle": {
+      "text": "Песчаные замки"
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -80,
+          -64
+        ]
+      }
+    }
+  }
+}

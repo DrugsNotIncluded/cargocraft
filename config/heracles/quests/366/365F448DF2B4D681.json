@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5490F580058BA49B"
+  ],
+  "tasks": {
+    "2C147439AAC0DCD0": {
+      "title": "Красный корунд",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Красный корунд",
+    "description": [
+      "<task task=\"2C147439AAC0DCD0\" quest=\"365F448DF2B4D681\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "quark:red_corundum"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          32,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FB396B6DE5CB6DC"
+  ],
+  "tasks": {
+    "49E4B342EC2ADA26": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "quark:clear_shard"
+    },
+    "44E05E0CDB868583": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "minecraft:diorite"
+    }
+  },
+  "rewards": {
+    "48A3728A48369FE4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "quark:white_corundum"
+      }
+    }
+  },
+  "display": {
+    "title": "Выращиваем корунд",
+    "description": [
+      "<subtitle id=\"05211E4B2C47532C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"49E4B342EC2ADA26\" quest=\"05211E4B2C47532C\"/>",
+      "<task task=\"44E05E0CDB868583\" quest=\"05211E4B2C47532C\"/>",
+      "<hr/>",
+      "Для этого нам всего-то понадобится &&6миксер&&r, ничего сложного",
+      "<br/>",
+      "Периодически &&2корунд&&r растёт сам по себе под землёй, иногда &&2кластерами&&r. Они понадобятся нам позже.",
+      "<hr/>",
+      "<reward reward=\"48A3728A48369FE4\" quest=\"05211E4B2C47532C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "quark:white_corundum"
+    },
+    "subtitle": {
+      "text": "Оно так не работает"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -80,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1A41C285DE920119"
+  ],
+  "tasks": {
+    "464260DE65090255": {
+      "title": "Я умница",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Производство корунда",
+    "description": [
+      "<task task=\"464260DE65090255\" quest=\"7A881BA2FB9ABF38\"/>",
+      "<hr/>",
+      "Вы уже умеете производить корунд, теперь его понадобится сильно больше и в промышленных масштабах"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "quark:white_corundum"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          -96,
+          0
+        ]
+      }
+    }
+  }
+}

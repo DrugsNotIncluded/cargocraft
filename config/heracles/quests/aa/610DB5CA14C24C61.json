@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "tasks": {
+    "35598BC5F19C0138": {
+      "title": "Кчау)",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "3C4B5950BE3A26B9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Кчау)",
+    "description": [
+      "<task task=\"35598BC5F19C0138\" quest=\"610DB5CA14C24C61\"/>",
+      "<hr/>",
+      "Пак разделён на несколько ступеней прогрессии",
+      "Большая её часть взята из Create: Above and Beyond",
+      "Квесты писались в 2 часа ночи, смиритесь с тупыми хиханьки-хаханьки",
+      "<hr/>",
+      "<reward reward=\"3C4B5950BE3A26B9\" quest=\"610DB5CA14C24C61\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:grass_block"
+    },
+    "groups": {
+      "§a Обзор §a": {
+        "position": [
+          -224,
+          -16
+        ]
+      }
+    }
+  }
+}

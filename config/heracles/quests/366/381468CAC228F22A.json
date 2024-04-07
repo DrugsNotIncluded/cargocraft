@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0A6201B88A41630E"
+  ],
+  "tasks": {
+    "5EFD9C46E1EBFC61": {
+      "type": "heracles:item",
+      "item": "kubejs:invar_casing"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Прочная коробка",
+    "description": [
+      "<task task=\"5EFD9C46E1EBFC61\" quest=\"381468CAC228F22A\"/>",
+      "<hr/>",
+      "<br/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:invar_casing"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          176,
+          128
+        ]
+      }
+    }
+  }
+}

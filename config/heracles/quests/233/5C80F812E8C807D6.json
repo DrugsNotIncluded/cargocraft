@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5288FFA829A64B99"
+  ],
+  "tasks": {
+    "471DF21E8271AAA4": {
+      "title": "Латунная обивка",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Латунная обивка",
+    "description": [
+      "<task task=\"471DF21E8271AAA4\" quest=\"5C80F812E8C807D6\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_casing"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          80,
+          224
+        ]
+      }
+    }
+  }
+}

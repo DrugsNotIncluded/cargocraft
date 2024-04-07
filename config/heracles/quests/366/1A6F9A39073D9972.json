@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "44476EC6EC07A7E9"
+  ],
+  "tasks": {
+    "72CC1BCB3D9DE940": {
+      "title": "Жёлтый корунд",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Жёлтый корунд",
+    "description": [
+      "<task task=\"72CC1BCB3D9DE940\" quest=\"1A6F9A39073D9972\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "quark:yellow_corundum"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          32,
+          32
+        ]
+      }
+    }
+  }
+}

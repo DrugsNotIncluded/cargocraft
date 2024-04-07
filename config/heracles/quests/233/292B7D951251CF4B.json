@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "79FD328C0224D9A0"
+  ],
+  "tasks": {
+    "5F0F86A05C1A7356": {
+      "type": "heracles:item",
+      "item": "kubejs:eternal_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Фиолетовый батон",
+    "description": [
+      "<subtitle id=\"292B7D951251CF4B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5F0F86A05C1A7356\" quest=\"292B7D951251CF4B\"/>",
+      "<hr/>",
+      "Используя предметы из двух предыдущих шагов получи в миксере..",
+      "&&5фиолетовый батон&&r?",
+      "Больше одного &&6точно&&r не нужно будет"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:eternal_ingot"
+    },
+    "subtitle": {
+      "text": "Это единоразовая акция"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -16,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1F1A621D175A04FA"
+  ],
+  "tasks": {
+    "647B5361A84D7AFA": {
+      "type": "heracles:item",
+      "item": "sliceanddice:slicer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Смешная нарезка лиан",
+    "description": [
+      "<subtitle id=\"0D291FCA53BECE8A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"647B5361A84D7AFA\" quest=\"0D291FCA53BECE8A\"/>",
+      "<hr/>",
+      "Да, можно вручную ножом на доске, но лучше всё же механизмом"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "sliceanddice:slicer"
+    },
+    "subtitle": {
+      "text": "Дай ему нож"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          -96,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0FD3D682421FFBEC"
+  ],
+  "tasks": {
+    "2F88FB7DA0E44B0A": {
+      "type": "heracles:item",
+      "item": "create:mechanical_harvester"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Механический комбайн",
+    "description": [
+      "<subtitle id=\"374B0CBAD9EAA623\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2F88FB7DA0E44B0A\" quest=\"374B0CBAD9EAA623\"/>",
+      "<hr/>",
+      "Позволяет собирать &&aрастения&&r с грядок без нужды их заново сажать",
+      "Обычно используется на &&eкрутящихся механизмах&&r, чтобы собирать всё по кругу вокруг себя. "
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_harvester"
+    },
+    "subtitle": {
+      "text": "Лучше чем жители"
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          32,
+          -48
+        ]
+      }
+    }
+  }
+}

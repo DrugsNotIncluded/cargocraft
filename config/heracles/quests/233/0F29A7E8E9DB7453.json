@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "11A4215C762D5AB0"
+  ],
+  "tasks": {
+    "14E293163845E8A5": {
+      "type": "heracles:item",
+      "item": "create_new_age:energiser_t1"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Зарядник",
+    "description": [
+      "<subtitle id=\"0F29A7E8E9DB7453\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"14E293163845E8A5\" quest=\"0F29A7E8E9DB7453\"/>",
+      "<hr/>",
+      "&&2Зарядник&&r позволит использовать нам энергию с катушки для преобразования некоторых предметов."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create_new_age:energiser_t1"
+    },
+    "subtitle": {
+      "text": "Сила прогресса"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -128,
+          0
+        ]
+      }
+    }
+  }
+}

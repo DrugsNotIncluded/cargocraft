@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4127DE236C7E86E3",
+    "7181D646B1E0B119"
+  ],
+  "tasks": {
+    "1347C440C48DE45C": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:andesite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Андезит",
+    "description": [
+      "<subtitle id=\"6BFA6ABE7E392791\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1347C440C48DE45C\" quest=\"6BFA6ABE7E392791\"/>",
+      "<hr/>",
+      "Для производства &&aбазовых механизмов&&r нам понадобится &&2андезит&&r, его так же может производить &&6экструдер&&r, но только у бедрока.."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:andesite"
+    },
+    "subtitle": {
+      "text": "Ура, теперь можно не красть у соседа"
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -128,
+          -96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "44A03DE9F7277CBB"
+  ],
+  "tasks": {
+    "731F05B3733B60F2": {
+      "type": "heracles:item",
+      "item": "kubejs:invar_compound"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Необработанный сплав",
+    "description": [
+      "<task task=\"731F05B3733B60F2\" quest=\"2B4858BD8693A27E\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:invar_compound"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          176,
+          32
+        ]
+      }
+    }
+  }
+}

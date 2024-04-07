@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "3AEDE007060E17BB": {
+      "title": "Sophisticated storage",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sophisticated storage",
+    "description": [
+      "<task task=\"3AEDE007060E17BB\" quest=\"50B8D701FA0E9D81\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:copper_barrel"
+    },
+    "groups": {
+      "0. §7 Для новеньких §7": {
+        "position": [
+          224,
+          -192
+        ]
+      }
+    }
+  }
+}

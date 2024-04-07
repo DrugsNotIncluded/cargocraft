@@ -1,13 +1,13 @@
 name = "Valhelsia Core"
-filename = "valhelsia_core-forge-1.20.1-1.1.1.jar"
+filename = "valhelsia_core-forge-1.20.1-1.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9bf421ecd72a406f08c98d3ba4f4df48c0473717"
+hash = "5e88feef805d15ffbe3c0918f53d6ed213a7dc6a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4735319
+file-id = 5189548
 project-id = 416935

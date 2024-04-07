@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7181D646B1E0B119"
+  ],
+  "tasks": {
+    "69321D853A9D607A": {
+      "type": "heracles:item",
+      "item": "create:millstone"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:millstone",
+    "description": [
+      "<subtitle id=\"2FE90A4E95ACB2EE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"69321D853A9D607A\" quest=\"2FE90A4E95ACB2EE\"/>",
+      "<hr/>",
+      "В данный момент времени у вас нет &&eэффективных&&r методов &&bпереработки гравия&&r в &&2песок&&r, придётся терпеть до &&2колёс&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:millstone"
+    },
+    "subtitle": {
+      "text": "В ожидании здоровых колёс.."
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -64,
+          -96
+        ]
+      }
+    }
+  }
+}

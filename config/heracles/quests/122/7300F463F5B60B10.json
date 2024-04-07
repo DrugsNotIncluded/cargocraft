@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "195B3F511F11F9AF"
+  ],
+  "tasks": {
+    "331620A9C3CBA834": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Автоматический лесоруб",
+    "description": [
+      "<subtitle id=\"7300F463F5B60B10\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"331620A9C3CBA834\" quest=\"7300F463F5B60B10\"/>",
+      "<hr/>",
+      "Так же как и &&6механический комбайн&&r обычно используется в составе &&eкрутящихся механизмов&&r, позволяет вырубать деревья &&bпод корень&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw"
+    },
+    "subtitle": {
+      "text": "Пила делает вжжж"
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          96,
+          -48
+        ]
+      }
+    }
+  }
+}

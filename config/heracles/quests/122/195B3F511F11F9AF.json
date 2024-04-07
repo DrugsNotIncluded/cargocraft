@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4127DE236C7E86E3"
+  ],
+  "tasks": {
+    "0A858DC5308E6822": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:oak_log"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Автоматический лес",
+    "description": [
+      "<subtitle id=\"195B3F511F11F9AF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0A858DC5308E6822\" quest=\"195B3F511F11F9AF\"/>",
+      "<hr/>",
+      "В дальнейшем нам нужно будет &&2огромное количество дерева&&r для такого же большого количества механизмов, но это не беда, если его &&eне нужно собирать руками&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_log"
+    },
+    "subtitle": {
+      "text": "Положи. Топор."
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          96,
+          -112
+        ]
+      }
+    }
+  }
+}

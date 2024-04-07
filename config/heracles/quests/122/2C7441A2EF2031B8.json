@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "171BA7A110C35274"
+  ],
+  "tasks": {
+    "2E4458361D9EC024": {
+      "type": "heracles:item",
+      "item": "kubejs:kinetic_mechanism"
+    }
+  },
+  "rewards": {
+    "13FDF8BA3339AFE0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "kubejs:kinetic_mechanism",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Часть 1: Автоматизация",
+    "description": [
+      "<subtitle id=\"2C7441A2EF2031B8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2E4458361D9EC024\" quest=\"2C7441A2EF2031B8\"/>",
+      "<hr/>",
+      "&&eПоздравляю!&&r ",
+      "Вы автоматизировали свой первый механизм, теперь у вас не должно быть проблем с их получением, вам больше не придётся на коленке выпиливать их пилой.",
+      "<br/>",
+      "&&6Дальше хуже.&&r",
+      "<hr/>",
+      "<reward reward=\"13FDF8BA3339AFE0\" quest=\"2C7441A2EF2031B8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:kinetic_mechanism"
+    },
+    "subtitle": {
+      "text": "Слава тебе, Господи."
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -16,
+          96
+        ]
+      }
+    }
+  }
+}

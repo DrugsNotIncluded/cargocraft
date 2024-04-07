@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "374B0CBAD9EAA623",
+    "22B4A616818031DE"
+  ],
+  "tasks": {
+    "54B2D27DCBBD11F8": {
+      "type": "heracles:item",
+      "item": "kubejs:algal_blend"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Водорослевая смесь",
+    "description": [
+      "<subtitle id=\"64CBBA88058EC08E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"54B2D27DCBBD11F8\" quest=\"64CBBA88058EC08E\"/>",
+      "<hr/>",
+      "Для следующего этапа нам понадобится &&bпереплавить смесь&&r в &&2кирпичи&&r при помощи &&6вентилятора с лавой&&r перед ним.",
+      "<br/>",
+      "&&e(главное не перепутать полярность)&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:algal_blend"
+    },
+    "subtitle": {
+      "text": "Крепче чем кажется"
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -16,
+          0
+        ]
+      }
+    }
+  }
+}

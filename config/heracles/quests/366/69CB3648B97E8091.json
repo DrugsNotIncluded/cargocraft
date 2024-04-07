@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0D291FCA53BECE8A"
+  ],
+  "tasks": {
+    "47A73464D985514F": {
+      "title": "Я умница",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Бессмертный",
+    "description": [
+      "<subtitle id=\"69CB3648B97E8091\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"47A73464D985514F\" quest=\"69CB3648B97E8091\"/>",
+      "<hr/>",
+      "Работает? Попробуй подуть"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:soul_campfire"
+    },
+    "subtitle": {
+      "text": "Проверяем"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          -128,
+          -48
+        ]
+      }
+    }
+  }
+}

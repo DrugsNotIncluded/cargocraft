@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "292B7D951251CF4B"
+  ],
+  "tasks": {
+    "2C2B1C9C87E3C820": {
+      "type": "heracles:item",
+      "item": "kubejs:grain_of_infinity"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Бесконечные крошки",
+    "description": [
+      "<subtitle id=\"7D630ED1D807B675\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2C2B1C9C87E3C820\" quest=\"7D630ED1D807B675\"/>",
+      "<hr/>",
+      "Совсем не крошится руками.",
+      "Жёрновами тоже не крошится.. и даже колёсами.",
+      "Хтоническая хуйня"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:grain_of_infinity"
+    },
+    "subtitle": {
+      "text": "Оно размножается"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -16,
+          32
+        ]
+      }
+    }
+  }
+}

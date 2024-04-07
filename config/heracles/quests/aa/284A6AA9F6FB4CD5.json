@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D67640ABC19C723"
+  ],
+  "tasks": {
+    "3B3266468524D92C": {
+      "title": "Индуктивные механизмы",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Индуктивные механизмы",
+    "description": [
+      "<task task=\"3B3266468524D92C\" quest=\"284A6AA9F6FB4CD5\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:inductive_mechanism"
+    },
+    "groups": {
+      "§a Обзор §a": {
+        "position": [
+          64,
+          -16
+        ]
+      }
+    }
+  }
+}

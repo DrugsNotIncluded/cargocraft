@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D252B9958247E08"
+  ],
+  "tasks": {
+    "31780EEE3908980A": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "quark:white_corundum_cluster",
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Майнкрафтские фокусы",
+    "description": [
+      "<subtitle id=\"2C6AEEBB0692B4CC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"31780EEE3908980A\" quest=\"2C6AEEBB0692B4CC\"/>",
+      "<hr/>",
+      "Итого:",
+      "У вас получается два &&2корунда&&r, один из которых можно отправить на производство, а второй пустить снова в дело!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "quark:white_corundum_cluster"
+    },
+    "subtitle": {
+      "text": "Почти как булыжник"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -80,
+          64
+        ]
+      }
+    }
+  }
+}

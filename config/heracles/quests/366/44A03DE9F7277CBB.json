@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1A41C285DE920119"
+  ],
+  "tasks": {
+    "38FCBA1BE3555060": {
+      "type": "heracles:item",
+      "item": "kubejs:nickel_compound"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Металлическое соединение",
+    "description": [
+      "<task task=\"38FCBA1BE3555060\" quest=\"44A03DE9F7277CBB\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:nickel_compound"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          176,
+          -16
+        ]
+      }
+    }
+  }
+}

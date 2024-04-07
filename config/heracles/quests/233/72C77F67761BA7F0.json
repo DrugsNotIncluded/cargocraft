@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7D630ED1D807B675"
+  ],
+  "tasks": {
+    "3FA48A9F06B95104": {
+      "type": "heracles:item",
+      "item": "kubejs:abyssal_blend_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Страшная жижа",
+    "description": [
+      "<subtitle id=\"72C77F67761BA7F0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3FA48A9F06B95104\" quest=\"72C77F67761BA7F0\"/>",
+      "<hr/>",
+      "Батоновуха.",
+      "Смешай немного &&5пыли&&r из предыдущего квеста и &&2воды&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:abyssal_blend_bucket"
+    },
+    "subtitle": {
+      "text": "Ну давай, выпей ещё"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -16,
+          64
+        ]
+      }
+    }
+  }
+}

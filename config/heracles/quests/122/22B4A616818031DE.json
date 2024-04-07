@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1FE3D18B49E19860"
+  ],
+  "tasks": {
+    "23B580DE49FB2671": {
+      "type": "heracles:item",
+      "item": "create:encased_fan"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Месим глину",
+    "description": [
+      "<subtitle id=\"22B4A616818031DE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"23B580DE49FB2671\" quest=\"22B4A616818031DE\"/>",
+      "<hr/>",
+      "Если &&bпромыть&&r &&2грязь&&r &&bводой&&r, то можно получить &&2глину&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:encased_fan"
+    },
+    "subtitle": {
+      "text": "НЕ НАДО"
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -64,
+          -32
+        ]
+      }
+    }
+  }
+}

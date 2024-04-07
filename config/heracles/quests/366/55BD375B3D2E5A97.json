@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1A6F9A39073D9972"
+  ],
+  "tasks": {
+    "559C21197877A1DB": {
+      "title": "Зелёный корунд",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Зелёный корунд",
+    "description": [
+      "<task task=\"559C21197877A1DB\" quest=\"55BD375B3D2E5A97\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "quark:green_corundum"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          32,
+          64
+        ]
+      }
+    }
+  }
+}

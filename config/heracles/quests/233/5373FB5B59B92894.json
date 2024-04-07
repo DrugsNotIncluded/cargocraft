@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "093D8D8605A77B7D"
+  ],
+  "tasks": {
+    "60AFF4914BD6451F": {
+      "type": "heracles:item",
+      "item": "createbigcannons:molten_cast_iron_bucket"
+    },
+    "015CAAFBD9123E62": {
+      "type": "heracles:item",
+      "item": "createbigcannons:basin_foundry_lid"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Закалённый металл",
+    "description": [
+      "<task task=\"60AFF4914BD6451F\" quest=\"5373FB5B59B92894\"/>",
+      "<task task=\"015CAAFBD9123E62\" quest=\"5373FB5B59B92894\"/>",
+      "<hr/>",
+      "Чугун нужно расплавить и перелить в Дозатор"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "createbigcannons:molten_cast_iron_bucket"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          32,
+          0
+        ]
+      }
+    }
+  }
+}

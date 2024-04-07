@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "141F2FF51784B313",
+    "5C80F812E8C807D6"
+  ],
+  "tasks": {
+    "33EB09729D80004E": {
+      "title": "Точное приспособление",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Точное приспособление",
+    "description": [
+      "<task task=\"33EB09729D80004E\" quest=\"3BEF8E1E52F549D4\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:brass_machine"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          32,
+          256
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "69CB3648B97E8091"
+  ],
+  "tasks": {
+    "29864EFD3DE0F578": {
+      "type": "heracles:item",
+      "item": "farmersdelight:stove"
+    }
+  },
+  "rewards": {
+    "4AA4BD1CE210F279": {
+      "type": "heracles:item",
+      "item": {
+        "id": "farmersdelight:skillet",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Не очень бессмертный",
+    "description": [
+      "<subtitle id=\"5CD82D6132FCA0CD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"29864EFD3DE0F578\" quest=\"5CD82D6132FCA0CD\"/>",
+      "<hr/>",
+      "Удивительно, но обычный костёр &&aлианы&&r не выдерживают и превращаются.. в &&2костную пыль&&r?",
+      "<br/>",
+      "Для дальнейшего прогресса лучше использовать &&6сковороду&&r и &&6печку&&r, с &&6кострами&&r тяжелее взаимодействовать и подгадывать тайминги.",
+      "<hr/>",
+      "<reward reward=\"4AA4BD1CE210F279\" quest=\"5CD82D6132FCA0CD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:stove"
+    },
+    "subtitle": {
+      "text": "ШТОШ"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          -160,
+          -32
+        ]
+      }
+    }
+  }
+}

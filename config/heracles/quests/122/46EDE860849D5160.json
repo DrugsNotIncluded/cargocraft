@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6BFA6ABE7E392791"
+  ],
+  "tasks": {
+    "78CFFA3AA16E8C43": {
+      "type": "heracles:item",
+      "item": "create:rope_pulley"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Подъёмник",
+    "description": [
+      "<subtitle id=\"46EDE860849D5160\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"78CFFA3AA16E8C43\" quest=\"46EDE860849D5160\"/>",
+      "<hr/>",
+      "Добытый &&2андезит&&r явно довольно &&eдалеко&&r от вашей базы, так что вам скорее всего понадобится &&6подъёмник&&r чтобы привезти его на &&bповерхность&&r.",
+      "<br/>",
+      "Так же вы можете использовать &&6портальный вал&&r, &&6каретку&&r и какое-нибудь &&6хранилище&&r, как альтернативу."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:rope_pulley"
+    },
+    "subtitle": {
+      "text": "А как"
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -128,
+          -48
+        ]
+      }
+    }
+  }
+}

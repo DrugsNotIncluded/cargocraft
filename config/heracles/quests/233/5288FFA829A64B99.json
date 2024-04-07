@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FB396B6DE5CB6DC"
+  ],
+  "tasks": {
+    "11CD601623C6C798": {
+      "title": "Смешивание металлов",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Смешивание металлов",
+    "description": [
+      "<task task=\"11CD601623C6C798\" quest=\"5288FFA829A64B99\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          80,
+          176
+        ]
+      }
+    }
+  }
+}

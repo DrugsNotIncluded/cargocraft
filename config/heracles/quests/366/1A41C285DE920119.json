@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "490888DDEDEFBCED"
+  ],
+  "tasks": {
+    "51FE8B396541C1C5": {
+      "title": "Глава 3: Начало",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Цирк: Remake"
+    },
+    "description": [
+      "<subtitle id=\"1A41C285DE920119\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"51FE8B396541C1C5\" quest=\"1A41C285DE920119\"/>",
+      "<hr/>",
+      "Эта глава направлена на &&eпочти&&r полную автоматизацию, к сожалению &&aникель&&r вам придётся добывать самим",
+      "<br/>",
+      "В этой главе будет &&eминимум&&r лутбоксов"
+    ],
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          64,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createaddition:tesla_coil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Глава 3: Начало"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

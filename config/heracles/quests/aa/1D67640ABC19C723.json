@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "490888DDEDEFBCED"
+  ],
+  "tasks": {
+    "5501C6ACF10AFB4F": {
+      "title": "Заводы мои заводы..",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Заводы мои заводы..",
+    "description": [
+      "<task task=\"5501C6ACF10AFB4F\" quest=\"1D67640ABC19C723\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:radiant_coil"
+    },
+    "groups": {
+      "§a Обзор §a": {
+        "position": [
+          16,
+          -16
+        ]
+      }
+    }
+  }
+}

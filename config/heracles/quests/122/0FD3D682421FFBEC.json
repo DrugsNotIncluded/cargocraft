@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4127DE236C7E86E3"
+  ],
+  "tasks": {
+    "3C66FF6BC8F82FFE": {
+      "type": "heracles:item",
+      "item": "minecraft:kelp"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Подводный сад",
+    "description": [
+      "<task task=\"3C66FF6BC8F82FFE\" quest=\"0FD3D682421FFBEC\"/>",
+      "<hr/>",
+      "Для постоянной добычи &&2водорослей&&r вам понадобится построить небольшую &&bферму&&r под водой при помощи &&6механических комбайнов&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:kelp"
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          32,
+          -96
+        ]
+      }
+    }
+  }
+}

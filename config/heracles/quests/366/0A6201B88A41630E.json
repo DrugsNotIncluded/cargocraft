@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2B4858BD8693A27E"
+  ],
+  "tasks": {
+    "4E3381DAFCA377FC": {
+      "type": "heracles:item",
+      "item": "kubejs:invar_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Инвар",
+    "description": [
+      "<subtitle id=\"0A6201B88A41630E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4E3381DAFCA377FC\" quest=\"0A6201B88A41630E\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:invar_ingot"
+    },
+    "subtitle": {
+      "text": "Неизменный"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          176,
+          80
+        ]
+      }
+    }
+  }
+}

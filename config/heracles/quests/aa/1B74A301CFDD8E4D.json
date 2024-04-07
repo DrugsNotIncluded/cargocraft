@@ -1,0 +1,30 @@
+{
+  "settings": {},
+  "tasks": {
+    "09EF64745B2253CF": {
+      "title": "Бесконечные инструменты",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Бесконечные инструменты",
+    "description": [
+      "<task task=\"09EF64745B2253CF\" quest=\"1B74A301CFDD8E4D\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:eternal_stella"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "groups": {
+      "§a Это мы покупаем §a": {
+        "position": [
+          -192,
+          -144
+        ]
+      }
+    }
+  }
+}

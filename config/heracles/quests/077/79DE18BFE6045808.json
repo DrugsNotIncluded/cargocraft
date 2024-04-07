@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "1A2A943195D5A4D1": {
+      "title": "Create",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Create",
+    "description": [
+      "<task task=\"1A2A943195D5A4D1\" quest=\"79DE18BFE6045808\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:large_cogwheel"
+    },
+    "groups": {
+      "0. §7 Для новеньких §7": {
+        "position": [
+          96,
+          -192
+        ]
+      }
+    }
+  }
+}

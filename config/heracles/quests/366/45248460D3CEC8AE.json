@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A881BA2FB9ABF38",
+    "189DCD18A0C2F5E8"
+  ],
+  "tasks": {
+    "335A21B7D7300B93": {
+      "type": "heracles:item",
+      "item": "quark:violet_corundum"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Книга с раскрасками",
+    "description": [
+      "<task task=\"335A21B7D7300B93\" quest=\"45248460D3CEC8AE\"/>",
+      "<hr/>",
+      "Для следующего этапа вам нужно будет окрасить корунд в пурпурный. Надеюсь что у вас уже есть достаточно лавы, чтобы закрепить цвет."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "quark:violet_corundum"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    }
+  }
+}

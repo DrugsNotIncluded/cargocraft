@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "1F403E60C8509064": {
+      "title": "Беспроводное вращение",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Беспроводное вращение",
+    "description": [
+      "<task task=\"1F403E60C8509064\" quest=\"5946AE913DA96700\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "createutilities:void_motor"
+    },
+    "groups": {
+      "3A. §5 Цыганские фокусы §5": {
+        "position": [
+          -48,
+          -80
+        ]
+      }
+    }
+  }
+}

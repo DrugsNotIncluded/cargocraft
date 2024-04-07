@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1A6F9A39073D9972",
+    "55BD375B3D2E5A97",
+    "365F448DF2B4D681",
+    "44476EC6EC07A7E9"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "Сияющая заготовка",
+    "description": [
+      "<subtitle id=\"238BCB8A0D8C0BA6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "quark:smithing_template_rune"
+    },
+    "subtitle": {
+      "text": "Пахнет бабушкой"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          80,
+          16
+        ]
+      }
+    }
+  }
+}

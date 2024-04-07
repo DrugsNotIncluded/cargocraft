@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "46EDE860849D5160",
+    "64CBBA88058EC08E"
+  ],
+  "tasks": {
+    "4C7653C113D9E578": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "create:andesite_alloy"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Андезитовый сплав",
+    "description": [
+      "<subtitle id=\"3362908080AF4F79\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4C7653C113D9E578\" quest=\"3362908080AF4F79\"/>",
+      "<hr/>",
+      "&&eОсновной ресурс&&r наравне с деревом для производства дальнейших механизмов."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy"
+    },
+    "subtitle": {
+      "text": "Основа. База."
+    },
+    "groups": {
+      "1. §2 Базовые машины §2": {
+        "position": [
+          -128,
+          0
+        ]
+      }
+    }
+  }
+}

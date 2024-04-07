@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1680527716C741DA"
+  ],
+  "tasks": {
+    "7FCE669B5D652811": {
+      "title": "Катушка индуктивности",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Катушка индуктивности",
+    "description": [
+      "<subtitle id=\"7EC4E06ED08F7237\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7FCE669B5D652811\" quest=\"7EC4E06ED08F7237\"/>",
+      "<hr/>",
+      "Почти готово, осталось завернуть"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:radiant_coil"
+    },
+    "subtitle": {
+      "text": "Лепщица пельменей"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          128,
+          80
+        ]
+      }
+    }
+  }
+}

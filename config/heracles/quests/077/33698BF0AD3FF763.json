@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "775CFEDAF5B8A0DB": {
+      "title": "Vinery",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Vinery",
+    "description": [
+      "<task task=\"775CFEDAF5B8A0DB\" quest=\"33698BF0AD3FF763\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "vinery:red_grapejuice_wine_bottle"
+    },
+    "groups": {
+      "0. §7 Для новеньких §7": {
+        "position": [
+          128,
+          -192
+        ]
+      }
+    }
+  }
+}

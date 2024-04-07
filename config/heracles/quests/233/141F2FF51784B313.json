@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0533E188CEC09DF1",
+    "240F684DE164768B"
+  ],
+  "tasks": {
+    "7ACC33730CE9DD89": {
+      "type": "heracles:item",
+      "item": "create:precision_mechanism"
+    }
+  },
+  "rewards": {
+    "3407267AC1A66979": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Точная сборка",
+    "description": [
+      "<subtitle id=\"141F2FF51784B313\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7ACC33730CE9DD89\" quest=\"141F2FF51784B313\"/>",
+      "<hr/>",
+      "Теперь осталось по аналогии с &&7первой главой&&r собрать всё всё воедино, на этот раз вместо инструмента у нас &&9отвёртка&&r. Оригинально.",
+      "<hr/>",
+      "<reward reward=\"3407267AC1A66979\" quest=\"141F2FF51784B313\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:precision_mechanism"
+    },
+    "subtitle": {
+      "text": "Модпак на пару дней"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          32,
+          208
+        ]
+      }
+    }
+  }
+}

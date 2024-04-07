@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "497AA976D46D0EBF": {
+      "title": "More red",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "More red",
+    "description": [
+      "<task task=\"497AA976D46D0EBF\" quest=\"6A092076A897FF2C\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "morered:red_alloy_ingot"
+    },
+    "groups": {
+      "0. §7 Для новеньких §7": {
+        "position": [
+          160,
+          -192
+        ]
+      }
+    }
+  }
+}

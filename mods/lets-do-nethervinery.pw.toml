@@ -1,13 +1,13 @@
-name = "Let's Do: NetherVinery"
-filename = "letsdo-nethervinery-forge-1.2.5.jar"
+name = "[Let's Do] NetherVinery"
+filename = "letsdo-nethervinery-forge-1.2.8.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/4TTDxtOx/versions/AVvlWSzr/letsdo-nethervinery-forge-1.2.5.jar"
+url = "https://cdn.modrinth.com/data/4TTDxtOx/versions/oTFjF7wo/letsdo-nethervinery-forge-1.2.8.jar"
 hash-format = "sha1"
-hash = "afa4c1a9804a5d6983c352d171248e4428a67bd3"
+hash = "b296113e22c4e52d2941b646f1c38e5c5c106577"
 
 [update]
 [update.modrinth]
 mod-id = "4TTDxtOx"
-version = "AVvlWSzr"
+version = "oTFjF7wo"

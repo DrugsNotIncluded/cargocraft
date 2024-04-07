@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "25D77507C7CCAD19"
+  ],
+  "tasks": {
+    "54BEB04DCB8A736D": {
+      "type": "heracles:item",
+      "item": "kubejs:radiant_sheet"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Луч надежды",
+    "description": [
+      "<task task=\"54BEB04DCB8A736D\" quest=\"1680527716C741DA\"/>",
+      "<hr/>",
+      "Вытравите заготовку в получившемся этаноле"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:radiant_sheet"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          128,
+          48
+        ]
+      }
+    }
+  }
+}

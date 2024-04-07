@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "05211E4B2C47532C"
+  ],
+  "tasks": {
+    "2B14E6A5685D0BD7": {
+      "type": "heracles:item",
+      "item": "kubejs:corundum_seed_1"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "1. Выращиваем семечко",
+    "description": [
+      "<subtitle id=\"3C53F1319E9C1D93\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2B14E6A5685D0BD7\" quest=\"3C53F1319E9C1D93\"/>",
+      "<hr/>",
+      "Нам понадобится смешать &&2песок&&r и немного &&2молотого корунда&&r, а затем полить получившееся &&2семечки&&r водой",
+      "<br/>",
+      "Для этого вам нужен будет достаточно стабильный источник воды поступающей в &&6Дозаторы&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:corundum_seed_1"
+    },
+    "subtitle": {
+      "text": "Полить 4 раза"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -80,
+          -32
+        ]
+      }
+    }
+  }
+}

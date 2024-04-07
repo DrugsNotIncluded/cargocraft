@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1A41C285DE920119"
+  ],
+  "tasks": {
+    "21413AA7000DF629": {
+      "type": "heracles:item",
+      "item": "minecraft:sugar_cane"
+    },
+    "2CFB6E5AEAE48DA3": {
+      "type": "heracles:item",
+      "item": "minecraft:sugar"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Производство этанола",
+    "description": [
+      "<subtitle id=\"18581C00120E7B3B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"21413AA7000DF629\" quest=\"18581C00120E7B3B\"/>",
+      "<task task=\"2CFB6E5AEAE48DA3\" quest=\"18581C00120E7B3B\"/>",
+      "<hr/>",
+      "Постройте стабильную ферму тростника, если у вас её ещё нет, она понадобится вам для производства  этанола"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:apple"
+    },
+    "subtitle": {
+      "text": "Шесть Четыре"
+    },
+    "groups": {
+      "3. §6 Хроматические манипуляции §6": {
+        "position": [
+          128,
+          -16
+        ]
+      }
+    }
+  }
+}

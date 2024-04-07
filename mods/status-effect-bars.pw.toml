@@ -1,0 +1,12 @@
+name = "Status effect bars"
+filename = "status-effect-bars.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/x02cBj9Y/versions/mTjPtAMK/status-effect-bars-1.0.3.jar"
+
+# A number of tools can generate the hash for you, including 7-zip and sha256sum
+# packwiz supports a number of hashes, including sha256, sha512, sha1 and md5
+hash-format = "sha256"
+hash = "cf9da827d58d5a3d6692bcde3228f28f1dc94087d775b4f2e76be87631695513"
+

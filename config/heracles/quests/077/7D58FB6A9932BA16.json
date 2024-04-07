@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "3499EFA44B6E2F35": {
+      "title": "Краткий обзор",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Краткий обзор",
+    "description": [
+      "<task task=\"3499EFA44B6E2F35\" quest=\"7D58FB6A9932BA16\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:spyglass"
+    },
+    "groups": {
+      "0. §7 Для новеньких §7": {
+        "position": [
+          176,
+          -224
+        ]
+      }
+    }
+  }
+}

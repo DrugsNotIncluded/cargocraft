@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "15A8902F326C01AF"
+  ],
+  "tasks": {
+    "204292DBB31B7F5A": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "create_new_age:thorium"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Шоу \"Эксперименты\"",
+    "description": [
+      "<subtitle id=\"79FD328C0224D9A0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"204292DBB31B7F5A\" quest=\"79FD328C0224D9A0\"/>",
+      "<hr/>",
+      "Понадобятся для небольшого эксперимента"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create_new_age:thorium"
+    },
+    "subtitle": {
+      "text": "Ебанёт? Не должно."
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -16,
+          -32
+        ]
+      }
+    }
+  }
+}

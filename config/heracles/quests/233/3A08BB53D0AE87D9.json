@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5AB77D764B24036D",
+    "2C6AEEBB0692B4CC"
+  ],
+  "tasks": {
+    "5407E5C7E132D888": {
+      "type": "heracles:item",
+      "item": "create:polished_rose_quartz"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Электронные компоненты",
+    "description": [
+      "<subtitle id=\"3A08BB53D0AE87D9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5407E5C7E132D888\" quest=\"3A08BB53D0AE87D9\"/>",
+      "<hr/>",
+      "Перемешивать &&2корунд&&r с &&2жидким красным камнем&&r будет явно более здравой идеей чем натачивать его &&2наждачкой&&r три часа."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:polished_rose_quartz"
+    },
+    "subtitle": {
+      "text": "Молоток > Паяльник"
+    },
+    "groups": {
+      "2. §3 Латунный век §3": {
+        "position": [
+          -80,
+          128
+        ]
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-name = "Cargocraft"
+name = "BulkaSKorizei"
 author = "4eburek"
 version = "0.3.0"
 pack-format = "packwiz:1.1.0"
@@ -6,8 +6,12 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dd33cd6e75c20160440974b0f6af2e1d83b83ee8aa3942321510827939f2fa34"
+hash = "f638edab2d549a19d2a2d652d49b87871980e99c65f21a7dd139e9595c2a5897"
 
 [versions]
 minecraft = "1.20.1"
-neoforge = "47.1.103"
+neoforge = "47.1.105"
+
+[options]
+acceptable-game-versions = []
+datapack-folder = "config/openloader/data"

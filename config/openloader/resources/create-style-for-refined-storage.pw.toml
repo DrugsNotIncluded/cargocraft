@@ -1,0 +1,13 @@
+name = "Create Style for Refined Storage"
+filename = "Create Style for Refined Storage.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9e9b8cd842afec6f234d16d7b7de472cb1ee792e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4893440
+project-id = 941802

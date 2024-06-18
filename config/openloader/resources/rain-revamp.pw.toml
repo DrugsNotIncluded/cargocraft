@@ -1,0 +1,13 @@
+name = "Rain Revamp"
+filename = "Rain Revamp [1.20].zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ruIZ2s2r/versions/Cmv1HaaW/Rain%20Revamp%20%5B1.20%5D.zip"
+hash-format = "sha1"
+hash = "e3e750e0c1df4023c795df6290a2c1dfb4838d14"
+
+[update]
+[update.modrinth]
+mod-id = "ruIZ2s2r"
+version = "Cmv1HaaW"

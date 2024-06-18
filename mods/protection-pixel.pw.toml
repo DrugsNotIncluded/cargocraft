@@ -1,0 +1,13 @@
+name = "Protection Pixel"
+filename = "protection_pixel-0.9.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/l1FZziEx/versions/y1aa6sbh/protection_pixel-0.9.9.jar"
+hash-format = "sha1"
+hash = "ca75bdf0c01ea4f6d0ef21c633ebb2892cd15653"
+
+[update]
+[update.modrinth]
+mod-id = "l1FZziEx"
+version = "y1aa6sbh"

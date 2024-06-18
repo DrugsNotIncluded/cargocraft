@@ -1,0 +1,13 @@
+name = "Better Controls"
+filename = "BetterControls-Forge-1.20+v1.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ANpj0aBF/versions/H9eghR9n/BetterControls-Forge-1.20%2Bv1.3.0.jar"
+hash-format = "sha1"
+hash = "cb5403cfb66fdd22b193cf7a1ae99cf7bae1b57d"
+
+[update]
+[update.modrinth]
+mod-id = "ANpj0aBF"
+version = "H9eghR9n"

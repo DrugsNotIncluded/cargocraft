@@ -166,6 +166,10 @@ file = "icon.png"
 hash = "c63963a14b806b4963434c34e32311c560c00d83590e36b4ad470912e8c918f5"
 
 [[files]]
+file = "kubejs/client_scripts/create_fix.js"
+hash = "c6424efa149f82b29bd2780acaf93f516da5c1b6ca7476ebefc59942aeb15ec4"
+
+[[files]]
 file = "mods/acedium.pw.toml"
 hash = "ef184c499aa9dfbf14d28b7ff02c546432fa84ad250571f1a6ddedb24021d9f5"
 metafile = true
@@ -177,7 +181,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "59ad7e4771cb7b66f9477686a272b7d587e42c7ca869f0bf5314def6a50d6bc2"
+hash = "ac589712c04c74450b28551d27d9742ade44547bb585a138b55ae638f76f0cf9"
 metafile = true
 
 [[files]]
@@ -591,7 +595,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4338e846eb44201c4eb202ebe7607a0b80dbec4728ebf07f9c0934350d63bf47"
+hash = "10732d937971c70faa3f3708458b6088d6d28560f67e11da275f65757bfb66f6"
 metafile = true
 
 [[files]]

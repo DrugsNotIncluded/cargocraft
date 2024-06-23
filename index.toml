@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "1bf48d0c95d9c910fcd68fdb30aa266115274e93ea0cfda3ae5e10a9b39500c8"
+
+[[files]]
 file = "config/ModernUI/bootstrap.properties"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -162,12 +166,20 @@ hash = "d3cfd34010bf3adfada6d92d6df6acd71f467ff5bd159eb672c882d3200206a4"
 metafile = true
 
 [[files]]
-file = "icon.png"
-hash = "c63963a14b806b4963434c34e32311c560c00d83590e36b4ad470912e8c918f5"
+file = "ico.jpeg"
+hash = "fd07b91b8d354fa3d9f153dd3bf2a0d79ce5bf3ed465692b2c66c61fbcdd0c5d"
 
 [[files]]
 file = "kubejs/client_scripts/create_fix.js"
 hash = "c6424efa149f82b29bd2780acaf93f516da5c1b6ca7476ebefc59942aeb15ec4"
+
+[[files]]
+file = "mkclient.sh"
+hash = "cd170ebe71d85dd1694c0bb3d428b7b55c21bcf760458e9c77d7ebe7216cf34d"
+
+[[files]]
+file = "mkserver.sh"
+hash = "dc8d20050880dd0df7c132d32912ceb5b5544674a8f71ef55d17601a6a9c0e5a"
 
 [[files]]
 file = "mods/acedium.pw.toml"

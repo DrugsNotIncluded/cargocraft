@@ -6,9 +6,10 @@
 Инструкция по сборке клиента/сервера:
 ---
 Необходимые инструменты и пакеты для работы скриптов:
+* GNU getopt
 * jq
-* mrpack-install
-* packwiz
+* [mrpack-install](https://github.com/nothub/mrpack-install)
+* [packwiz](https://github.com/packwiz/packwiz)
 * wget
 * zip
 ```bash

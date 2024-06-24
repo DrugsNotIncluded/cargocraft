@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "MODS.md"
+hash = "2ed97fb8a6c736c91854c72d95c50531356e8e662e1604d551e7050c2adc4469"
+
+[[files]]
 file = "README.md"
-hash = "5018345457b252c6ba60a868219f6c51edef712b88f01ed39b7da4633797cc0e"
+hash = "fb4d74d26a9270dae4d0100551164bcd03c6df9d64d78bba862439d9d645f40a"
 
 [[files]]
 file = "config/ModernUI/bootstrap.properties"
@@ -171,11 +175,6 @@ hash = "cd170ebe71d85dd1694c0bb3d428b7b55c21bcf760458e9c77d7ebe7216cf34d"
 [[files]]
 file = "mkserver.sh"
 hash = "dc8d20050880dd0df7c132d32912ceb5b5544674a8f71ef55d17601a6a9c0e5a"
-
-[[files]]
-file = "mods/acedium.pw.toml"
-hash = "ef184c499aa9dfbf14d28b7ff02c546432fa84ad250571f1a6ddedb24021d9f5"
-metafile = true
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

@@ -56,36 +56,6 @@ element {
   [loading_requirement_container_meta:256da900-a713-44b6-abee-15f19ff10c2f-1712315564742] = [groups:][instances:]
 }
 
-element {
-  button_element_executable_block_identifier = d8146672-3796-46c0-bfbf-ed1b8f83d9f3-1712316845513
-  [executable_action_instance:cd17f319-e69b-4dca-818c-e5d2092d28a9-1712318900737][action_type:mimicbutton] = example.menu.identifier:31290831290L
-  [executable_block:d8146672-3796-46c0-bfbf-ed1b8f83d9f3-1712316845513][type:generic] = [executables:cd17f319-e69b-4dca-818c-e5d2092d28a9-1712318900737;]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  label = Квесты
-  navigatable = true
-  element_type = custom_button
-  instance_identifier = 662a83fd-24c2-4083-852d-87811d92d182-1712316845513
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = element
-  anchor_point_element = 0669b9c1-9e51-4745-89e0-1c013cbfcb79-1712315564742
-  x = 78
-  y = 0
-  width = 77
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 9c05ad24-a2c0-4720-86ed-8b37f1380be5-1712316845513
-  [loading_requirement_container_meta:9c05ad24-a2c0-4720-86ed-8b37f1380be5-1712316845513] = [groups:][instances:]
-}
-
 vanilla_button {
   button_element_executable_block_identifier = 159bd6cf-d4c9-41d3-81bc-3f39393b4a29-1712315550861
   [executable_block:159bd6cf-d4c9-41d3-81bc-3f39393b4a29-1712315550861][type:generic] = [executables:]

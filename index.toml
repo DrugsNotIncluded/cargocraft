@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "1bf48d0c95d9c910fcd68fdb30aa266115274e93ea0cfda3ae5e10a9b39500c8"
+hash = "5018345457b252c6ba60a868219f6c51edef712b88f01ed39b7da4633797cc0e"
 
 [[files]]
 file = "config/ModernUI/bootstrap.properties"
@@ -85,15 +85,6 @@ metafile = true
 file = "config/openloader/data/create-structures.pw.toml"
 hash = "d88d1845469a6f316eede279741cdedfc7489b3bef6c66405fff999e70d6c189"
 metafile = true
-
-[[files]]
-file = "config/openloader/data/create-x-valkyrien-skies-clockwork-survival-support.pw.toml"
-hash = "80135baa614bcc28ad5b12e462efd1cea5330bd7ed875dfefceb5af3ba6045ed"
-metafile = true
-
-[[files]]
-file = "config/openloader/resources/PixelQuartz Skyes_1.15.zip"
-hash = "606ed8b4745a1174b500ffd0e84f531d1c69371aba6d6b3e1108c570afe3f3a8"
 
 [[files]]
 file = "config/openloader/resources/alternative-rain-sounds.pw.toml"

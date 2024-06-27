@@ -46,7 +46,7 @@ hash = "89b75a214fbd37a600171ce445017dba4b7e7838a7c665ce03ed30fb1d1557ca"
 
 [[files]]
 file = "config/fancymenu/customization/inventory_screen_layout.txt"
-hash = "863bbdb87c9acd42b6d4d6c8b0d30a05e27f7e1340347fbaf304b64917dc6959"
+hash = "929524f8425ecf2e509fbaba4046a2baa129ab29b0d9144a57e8b8778bdcb922"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
@@ -398,6 +398,11 @@ metafile = true
 [[files]]
 file = "mods/cull-less-leaves-reforged.pw.toml"
 hash = "cbf20f8ad7c30691dc237cf21aeafb578d6afb8a135a1d84f4a9e957b9637327"
+metafile = true
+
+[[files]]
+file = "mods/cupboard.pw.toml"
+hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
 metafile = true
 
 [[files]]
@@ -856,6 +861,11 @@ hash = "35905f57cdb21a2aaa26345f2fabe3137ee2db6ee3bb2149cea206611b11ef69"
 metafile = true
 
 [[files]]
+file = "mods/servercore.pw.toml"
+hash = "19fa7bbbebc37d8db487a63d79e31ad23c70a70b2c18253301cafe36f506d512"
+metafile = true
+
+[[files]]
 file = "mods/shut-up-gl-error.pw.toml"
 hash = "5e63a40533f2c5c546407fe915a7cefcec69a135df7962faa19a1601d3728200"
 metafile = true
@@ -891,6 +901,11 @@ hash = "e9bf45458454e7ceaa9fc33b271b9f408f27b69d5660652a5f7464fad94bb733"
 metafile = true
 
 [[files]]
+file = "mods/smooth-chunk-save.pw.toml"
+hash = "a6fa210db6d27f784814e6f9c559a6aab70e1b5d225d45ce743d9062b50d6f19"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "3f6894af067410277d2281acd6a674575694eb65e4e3514e4d96e32b06e4e0e2"
 metafile = true
@@ -898,6 +913,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "9935c85e1d899d5bd69e83b51070cdca5ae9dc138bb6ccde8f76aac214df0cc0"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "dbe2c430bf58c773082d7fd9d1bee2d510a2e0c08f390f7465e819b6e321ae09"
 metafile = true
 
 [[files]]
@@ -938,6 +958,11 @@ metafile = true
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
 hash = "d0b9e330714c613ba207842facd66054188ad4cb60538f455487a8ca04d1b82a"
+metafile = true
+
+[[files]]
+file = "mods/vmod.pw.toml"
+hash = "2d4cef47bf12902b9bdd149292f0535351503791d297fbdb9b06d7e4dd3336b2"
 metafile = true
 
 [[files]]

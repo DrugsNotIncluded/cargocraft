@@ -1,0 +1,13 @@
+name = "VMod"
+filename = "VMod-Forge-1.20.1-0.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qS1ot7R2/versions/l1BvZZQl/VMod-Forge-1.20.1-0.0.9.jar"
+hash-format = "sha1"
+hash = "4cd8e384cd699c6744f582d804d9f0408da6b390"
+
+[update]
+[update.modrinth]
+mod-id = "qS1ot7R2"
+version = "l1BvZZQl"
